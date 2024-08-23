@@ -14,6 +14,7 @@ body{
   height: 40px;
   padding: 0 20px;
   display: flex;
+  
 }
 .nav-row{
   width: 100%;
@@ -73,9 +74,15 @@ font-size: 12px;
   text-decoration: none;
 }
 /*MAIN NAVBAR*/
+.nav-container{
+  position: sticky;
+  top: 0px;
+  z-index: 6;
+}
 .main-nav{
   background: #fff;
   height: 100px;
+
 }
 .logo-container{
 

@@ -52,7 +52,7 @@
     padding-right: 24px !important;
    }
 .carousel{
-    height: 30rem;
+    height: 36rem;
 
   margin: unset !important;
     width: 100% !important;
@@ -61,7 +61,7 @@
     padding: 0 20px;
   }
   .carousel-item img{
-    height: 30rem;
+    height: 36rem;
   }
   .dropdown{
     height:0rem ;
