@@ -17,7 +17,7 @@ function ProductSearch(props) {
 
     return (
         <>
-            <div className="product-search">
+            <div className="product-search my-2">
                 <div className="search-container">
 
                     <div className="option-container"onClick={toggleClass} >
