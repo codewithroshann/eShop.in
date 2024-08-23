@@ -1,0 +1,141 @@
+@media (max-width:1280px) {
+  .carousel {
+    
+    margin-left: 18.5% !important;
+  }
+  .input-container{
+    width: 62% !important;
+  }
+}
+
+@media (max-width:1280px) {
+  .dropdown{
+    height: 27.5rem !important;
+  }
+  .dropdown-box ul li{
+    margin: 12px 0 !important;
+  } 
+}
+
+@media (max-width:1165px) {
+  .option-container {
+    padding: unset !important;
+  }
+  .carousel{
+    margin-left: 19.5% !important;
+  }
+    .input-container{
+        width: 59% !important;
+    }
+    .dropdown{
+      height: 26.5rem !important;
+    }
+    .dropdown-box ul li{
+      margin: 12px 0 !important;
+    }      
+    .cart-container ul{
+        padding: unset;
+    }
+    .text{
+      padding: 0 25px !important;
+    }
+   .hero-container{
+    display: unset !important;
+   }
+   .hero-section{
+    margin-top: unset !important;
+   }
+   .input-container {
+    width: 55% !important;
+}
+   .option-container {
+    padding-right: 24px !important;
+   }
+.carousel{
+    height: 30rem;
+
+  margin: unset !important;
+    width: 100% !important;
+  }
+  .carousel-item{
+    padding: 0 20px;
+  }
+  .carousel-item img{
+    height: 30rem;
+  }
+  .dropdown{
+    height:0rem ;
+  }
+  .offer-box{
+    margin-top: 15px;
+    width: 100% !important;
+    padding: 0 20px;
+  }
+  .text{
+    padding: 20px 50px !important;
+  }
+ 
+}
+@media (max-width:970px) {
+        .top-navbar{
+        display: none;
+    }
+      .nav-links,.cart2{
+        display: none;
+    }
+    
+    .account-container{
+        display: none;
+    }
+    .top-cart{
+        display: block !important;
+    }
+    .search-container{
+      flex-direction: column-reverse;
+      gap: 10px;
+    }
+.input-container {
+    width: 100% !important;
+}
+.search-box input{
+  width: 85% !important;
+  }
+  .option-container{
+    width: 100%;
+    padding-right: unset !important;
+      }
+      .option-box{
+        justify-content: space-between !important;
+        padding: 0 10px;
+        width: 100% !important;
+      }
+      .offer-box{
+        margin-top: 20px;
+      }
+      .carousel-caption {
+        display: block !important;
+      }
+      .cost{
+        display:none
+      }
+}
+@media (max-width:680px) {
+  .carousel{
+    height: 25rem !important;
+  }
+  .carousel-item img {
+    height: 25rem !important;
+  }
+    .prev,.next{
+      top: 10rem !important;
+    }
+  }
+@media (max-width:550px) {
+  .search-box select {
+width:6rem !important;
+  }
+  .text {
+    padding: 0 25px !important;
+  }
+  
+}
