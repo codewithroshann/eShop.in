@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-function Navbar() {
+function Navbar(props) {
   return (
     <>
       <div className="nav-container">
@@ -14,7 +14,8 @@ function Navbar() {
             <div className="links">
               <ul>
                 <li> <a href="">Home</a></li>
-                <li><a href="Shop">Shop <i className="fa-solid fa-caret-down"></i></a></li>
+                <li><a href="Shop">Shop 
+                  <i className="fa-solid mx-1 fa-caret-down"></i></a></li>
                 <li><a href="About">About</a></li>
                 <li><a href="Blog">Blog</a></li>
                 <li><a href="Contact">Contact</a></li>
@@ -58,6 +59,7 @@ function Navbar() {
 
         </div>
       </div>
+        
     </>
   )
 }

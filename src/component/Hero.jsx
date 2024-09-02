@@ -1,5 +1,4 @@
 import React from 'react'
-
 function Hero() {
     return (
         <>
@@ -49,23 +48,17 @@ function Hero() {
                             <span className="visually-hidden">Next</span>
                         </button>
                     </div>
-
-
                     <div className="offer-box " >
                         <div className="col">
-
                         <div className="card " >
                             <a href="/">
                                 <img src="src/images/clothModel-3.avif" className="card-img-top" alt="..." />
                                 <div className="text">
                                     <h6>clothing</h6>
                                     extra <span>30% off </span>in all styles
-
                                 </div>
-                            </a>
-
+                           </a>
                         </div>
-
                         <div className="card" >
                             <a href="/">
                                 <img src="src/images/camera-2.webp" className="card-img-top" alt="..." />
@@ -77,9 +70,6 @@ function Hero() {
                         </div>
                         </div>
                         <div className="col">
-                            
-
-
                         <div className="card" >
                             <a href="/">
                                 <img src="src/images/Headsets.webp" className="card-img-top" alt="..." />
@@ -89,29 +79,19 @@ function Hero() {
                                 </div>
                             </a>
                         </div>
-
-
                         <div className="card" >
                             <a href="/">
                                 <img src="src/images/makeup-image.jpeg" className="card-img-top" alt="..." />
                                 <div className="text">
                                     <h6>beauty</h6>
                                     <span>20% off </span>in all beauty products
-
                                 </div>
                             </a>
                         </div>
                         </div>
-
-
-
-
-                    </div>
-
-
+                        </div>
                 </div>
             </div>
-
         </>
     )
 }

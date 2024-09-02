@@ -12,9 +12,6 @@ function ProductSearch(props) {
         }
 
     }
-
-
-
     return (
         <>
             <div className="product-search my-2">
