@@ -54,6 +54,7 @@ const ItemSliders = () => {
                                     <SwiperSlide className="slick-item ">
                                         <span>tech</span>
                                         <p>Blue Yeti Remote Control Robot</p>
+                                        
                                         <img src="src/images/robot-slider.png" style={{ width: "82px" }} alt="" />
                                         <button type="button" class="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             view
@@ -259,52 +260,72 @@ const ItemSliders = () => {
                                     >
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
+                                                <a href="/">
                                                 <img src="src/images/Helmate-image.png" alt="" />
                                                 <span>Sports & Outdoors</span>
+                                                </a>
                                             </div>
 
 
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
+                                            <a href="/">
                                                 <img src="src/images/HeadPhone.png" alt="" />
                                                 <span>HeadSets</span>
+                                                </a>
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
+                                            <a href="/">
                                                 <img src="src/images/Mobile-product.png" alt="" />
                                                 <span>Smart Phones</span>
+                                                </a>
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
+                                                <a href="">
+
                                                 <img src="src/images/fridge-removebg-preview.png" alt="" />
                                                 <span>Home Appliances</span>
+                                                </a>
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
+                                                <a href="">
+
                                                 <img src="src/images/CCTV-image.png" alt="" />
                                                 <span>Security</span>
+                                                </a>
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
+                                                <a href="">
+
                                                 <img src="src/images/MIcrowave-image.png" alt="" />
                                                 <span>Home Appliances</span>
+                                                </a>
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
+                                                <a href="">
                                                 <img src="src/images/WashingMachne.png" alt="" />
                                                 <span>Home Appliances</span>
+                                                </a>  
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
+                                                <a href="">
+
                                                 <img src="src/images/AirCooler-image.png" alt="" />
                                                 <span>Home Appliances</span>
+                                                </a>
                                             </div>
                                         </SwiperSlide>
                                     </Swiper>

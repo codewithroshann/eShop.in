@@ -6,9 +6,7 @@
   .input-container{
     width: 62% !important;
   }
-}
 
-@media (max-width:1280px) {
   .dropdown{
     height: 27.5rem !important;
   }
@@ -16,6 +14,8 @@
     margin: 12px 0 !important;
   } 
 }
+
+
 
 @media (max-width:1165px) {
   .option-container {
@@ -75,6 +75,24 @@
     padding: 20px 50px !important;
   }
  
+}
+
+
+@media (max-width:1080px) {
+.rx-1{
+  flex-direction: column;
+
+}
+.product-image{
+  width: 100% !important;
+  margin: auto;
+}
+.product-info{
+  margin-top: 10px;
+}
+.product-info span{
+  font-size: 25px;
+}
 }
 @media (max-width:970px) {
         .top-navbar{
