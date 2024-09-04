@@ -8,7 +8,7 @@ import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-const ItemSliders = () => {
+const ItemSliders = ( props) => {
     {/*COUNTDOWN FUCTION*/ }
     let [days, setDay] = useState("1");
     let [hours, setHours] = useState("1");
@@ -56,7 +56,7 @@ const ItemSliders = () => {
                                         <p>Blue Yeti Remote Control Robot</p>
                                         
                                         <img src="src/images/robot-slider.png" style={{ width: "82px" }} alt="" />
-                                        <button type="button" class="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <button type="button" className="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             view
                                         </button>
                                         <hr className="divider" />
@@ -102,7 +102,7 @@ const ItemSliders = () => {
                                         <span>tech</span>
                                         <p>Nike White & Orange Airmax Shoe</p>
                                         <img src="src/images/shoe-slider.png" style={{ width: "130px" }} alt="" />
-                                        <button type="button" class="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <button type="button" className="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             view
                                         </button>
                                         <hr className="divider" />
@@ -147,7 +147,7 @@ const ItemSliders = () => {
                                         <span>tech</span>
                                         <p>Louis Vitton Limited Edition Bag</p>
                                         <img src="src/images/ladiesBag-slider.png" style={{ width: "117px" }} alt="" />
-                                        <button type="button" class="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <button type="button" className="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             view
                                         </button>
                                         <hr className="divider" />
@@ -192,7 +192,7 @@ const ItemSliders = () => {
                                         <span>tech</span>
                                         <p>DermaCo Vitamin C FaceWash</p>
                                         <img src="src/images/faceWash-slider.png" style={{ width: "141px" }} alt="" />
-                                        <button type="button" class="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <button type="button" className="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             view
                                         </button>
                                         <hr className="divider" />

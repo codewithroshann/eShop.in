@@ -387,8 +387,8 @@ padding:20px 25px;
   }
 
   .slick-list{
-    width: 15.666%;
-    height: 30rem;
+    width: 15.666%
+   
   }
   .slick-track,.slick-wrapper{
     height: 100%;
@@ -431,7 +431,7 @@ padding:20px 25px;
       }
 
       .slider-func{
-        height: 100%;
+      
        &:hover .view-btn{
         animation: view 0.3s ease-in-out forwards
       }}
@@ -536,7 +536,7 @@ gap: 10px;
 
 /*----------PRODUCT CATEGORY-2----------*/
 .category-container{
-  width: 83%;
+  max-width: 80%;
 
 }
 .category-title{

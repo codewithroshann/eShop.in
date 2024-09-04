@@ -13,6 +13,9 @@
   .dropdown-box ul li{
     margin: 12px 0 !important;
   } 
+  .slick-list {
+    width: 16.666% !important;
+}
 }
 
 

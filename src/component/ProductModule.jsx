@@ -12,14 +12,14 @@ const ProductModule = () => {
     return (
         <>
             {/*--------------------MODAL--------------------*/}
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog " >
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog " >
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h1 className="modal-title fs-5" id="exampleModalLabel"></h1>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body rx-1 d-flex">
+                        <div className="modal-body rx-1 d-flex">
                             <div className="product-image">
                                 <Swiper
                                     modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -61,18 +61,18 @@ const ProductModule = () => {
                                     </ul>
                                     <div className="share-links">
                                         <span>  Share Links : </span>
-                                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href=""><i className="fa-brands fa-facebook-f"></i></a>
+                                        <a href=""><i className="fa-brands fa-whatsapp"></i></a>
+                                        <a href=""><i className="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i className="fa-brands fa-twitter"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="modal-body rx-2">
+                        <div className="modal-body rx-2">
                             <div className="row lg-4"></div>
                             <div className="free-delivery ">
-                                <button><i class="fa-solid fa-truck-fast"></i>Free Delivery</button>
+                                <button><i className="fa-solid fa-truck-fast"></i>Free Delivery</button>
                             </div>
                             <div className="product-rating-rice my-3">
                                 <div>
