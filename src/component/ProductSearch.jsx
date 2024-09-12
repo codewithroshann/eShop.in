@@ -17,7 +17,7 @@ function ProductSearch(props) {
             <div className="product-search my-2">
                 <div className="search-container">
 
-                    <div className="option-container"onClick={toggleClass} >
+                    <div className="option-container "onClick={toggleClass} >
                         <div className="option-box">
                             <i className="fa-solid fa-bars"></i> <span> All Departments</span>
                         </div>

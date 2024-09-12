@@ -8,7 +8,7 @@ import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-const ItemSliders = ( props) => {
+const ItemSliders = (props) => {
     {/*COUNTDOWN FUCTION*/ }
     let [days, setDay] = useState("1");
     let [hours, setHours] = useState("1");
@@ -33,13 +33,13 @@ const ItemSliders = ( props) => {
 
     return (
         <>
+            {/* OFFER ITEM SLIDER */}
             <div className="slider-section">
-                <div className="slider-container d-flex">                  
-                    <ProductModule/>
+                <div className="slider-container d-flex">
+                    <ProductModule />
                     <div className="slick-list my-4" >
                         <div className="slick-track">
                             <div className="section-title">
-
                                 <h3>Deal Of The Week</h3>
                             </div>
                             <div className="slick-wrapper ">
@@ -48,14 +48,35 @@ const ItemSliders = ( props) => {
                                     spaceBetween={20}
                                     slidesPerView={1}
                                     loop={true}
-                                    autoplay={{ delay: 3000, disableOnIntraction: false }}
-                                    onSwiper={(swiper) => console.log(swiper)}
+                                    autoplay={{ delay: 3000000, disableOnIntraction: false }}
+                                    breakpoints={{
+
+                                        320: {
+                                            slidesPerView: 1,
+                                            spaceBetween: 10
+                                        },
+
+                                        500: {
+                                            slidesPerView: 2,
+                                            spaceBetween: 15
+                                        },
+
+                                        1080: {
+                                            slidesPerView: 1,
+                                            spaceBetween: 30
+                                        }
+                                    }}
+
                                 >
                                     <SwiperSlide className="slick-item ">
                                         <span>tech</span>
                                         <p>Blue Yeti Remote Control Robot</p>
-                                        
-                                        <img src="src/images/robot-slider.png" style={{ width: "82px" }} alt="" />
+                                        <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
+                                            <img src="src/images/robot-slider.png" className='extend image-1' alt="" />
+                                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                                -25%
+                                            </span>
+                                        </div>
                                         <button type="button" className="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             view
                                         </button>
@@ -101,7 +122,12 @@ const ItemSliders = ( props) => {
                                     <SwiperSlide className="slick-item ">
                                         <span>tech</span>
                                         <p>Nike White & Orange Airmax Shoe</p>
-                                        <img src="src/images/shoe-slider.png" style={{ width: "130px" }} alt="" />
+                                        <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
+                                            <img src="src/images/shoe-slider.png" className='extend image-2' alt="" />
+                                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                                -25%
+                                            </span>
+                                        </div>
                                         <button type="button" className="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             view
                                         </button>
@@ -146,7 +172,12 @@ const ItemSliders = ( props) => {
                                     <SwiperSlide className="slick-item ">
                                         <span>tech</span>
                                         <p>Louis Vitton Limited Edition Bag</p>
-                                        <img src="src/images/ladiesBag-slider.png" style={{ width: "117px" }} alt="" />
+                                        <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
+                                            <img src="src/images/ladiesBag-slider.png" className='extend image-3' alt="" />
+                                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                                -25%
+                                            </span>
+                                        </div>
                                         <button type="button" className="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             view
                                         </button>
@@ -191,7 +222,12 @@ const ItemSliders = ( props) => {
                                     <SwiperSlide className="slick-item ">
                                         <span>tech</span>
                                         <p>DermaCo Vitamin C FaceWash</p>
-                                        <img src="src/images/faceWash-slider.png" style={{ width: "141px" }} alt="" />
+                                        <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
+                                            <img src="src/images/faceWash-slider.png" className='extend image-4' alt="" />
+                                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                                -25%
+                                            </span>
+                                        </div>
                                         <button type="button" className="btn btn-primary view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             view
                                         </button>
@@ -231,16 +267,298 @@ const ItemSliders = ( props) => {
                                                 <span className="sec">{sec} </span>
                                                 Sec
                                             </div>
-
                                         </div>
                                     </SwiperSlide>
-
                                 </Swiper>
                             </div>
                         </div>
-                    </div>
+                        {/* MINI OFFER BANNER */}
+                        <div className="mini-sidebar mt-4 position-relative">
+                            <a href="/">
+                                <img src="src/images/Tech-Item.jpg" alt="" />
+                                <div className="sidebar-text position-absolute">
+                                    Sale Up To <br /> <span>30% Off</span>
+                                </div>
+                            </a>
+                        </div>
+                        {/* LETEST ITEM SLIDER  */}
 
-                    {/*---------------PRODUCT CATEGORY-------------*/}
+                        <div className="slick-track slick-track-2">
+                            <div className="section-title">
+                                <h3>Latest Items</h3>
+                            </div>
+                            <div className="slick-wrapper ">
+                                <Swiper className='slider-func'
+                                    modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                                    spaceBetween={0}
+                                    slidesPerView={1}
+                                    loop={true}
+                                    autoplay={{ delay: 3000000, disableOnIntraction: false }}
+                                >
+                                    <SwiperSlide className="slick-item slick-item-2">
+                                        <ul className="none-list">
+                                            <li className="letest-items letest-items-1">
+                                                <div className='product-single'>
+                                                    <a href="/">
+                                                        <div className="row">
+                                                            <div className="col letestitem-col-1">
+                                                                <img src="src/images/hairDryer-removebg-preview.png" alt="" />
+                                                            </div>
+                                                            <div className="col letestitem-col-2 ">
+                                                                <div className="title">
+                                                                    Hair Dryer
+                                                                </div>
+                                                                <div className="deal-price price d-flex flex-column">
+                                                                    <span>$195.00</span>
+                                                                    <del>$299.99</del>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li className="letest-items letest-items-2">
+                                                <div className='product-single'>
+                                                    <a href="/">
+                                                        <div className="row">
+                                                            <div className="col letestitem-col-1">
+                                                                <img src="src/images/HeadPhone.png" alt="" />
+                                                            </div>
+                                                            <div className="col letestitem-col-2">
+                                                                <div className="title">
+                                                                    BT-5 HeadPhone
+                                                                </div>
+                                                                <div className="deal-price price d-flex flex-column">
+                                                                    <span>$195.00</span>
+                                                                    <del>$299.99</del>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li className="letest-items letest-items-3"></li>
+                                            <div className='product-single'>
+                                                <a href="/">
+                                                    <div className="row">
+                                                        <div className="col letestitem-col-1">
+                                                            <img src="src/images/Helmate-image.png" alt="" />
+                                                        </div>
+                                                        <div className="col letestitem-col-2">
+                                                            <div className="title">
+                                                                Sports Helmate
+                                                            </div>
+                                                            <div className="deal-price price d-flex flex-column">
+                                                                <span>$195.00</span>
+                                                                <del>$299.99</del>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <li className="letest-items letest-items-4"></li>
+                                            <div className='product-single'>
+                                                <a href="/">
+                                                    <div className="row">
+                                                        <div className="col letestitem-col-1">
+                                                            <img src="src/images/hightechcctv-removebg-preview.png" alt="" />
+                                                        </div>
+                                                        <div className="col letestitem-col-2">
+                                                            <div className="title">
+                                                                BlueRay CCTV
+                                                            </div>
+                                                            <div className="deal-price price d-flex flex-column">
+                                                                <span>$195.00</span>
+                                                                <del>$299.99</del>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <li className="letest-items letest-items-5">
+                                                <div className='product-single'>
+                                                    <a href="">
+
+                                                        <div className="row">
+                                                            <div className="col letestitem-col-1">
+                                                                <img src="src/images/faceWash-slider.png" alt="" />
+                                                            </div>
+                                                            <div className="col letestitem-col-2">
+                                                                <div className="title">
+                                                                    DermaCo FaceWash
+                                                                </div>
+                                                                <div className="deal-price price d-flex flex-column">
+                                                                    <span>$195.00</span>
+                                                                    <del>$299.99</del>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </SwiperSlide>
+                                    <SwiperSlide className="slick-item slick-item-2">
+                                        <ul className="none-list">
+                                            <li className="letest-items letest-items-1">
+                                                <div className='product-single'>
+                                                    <a href="/">
+                                                        <div className="row">
+                                                            <div className="col letestitem-col-1">
+                                                                <img src="src/images/hairDryer-removebg-preview.png" alt="" />
+                                                            </div>
+                                                            <div className="col letestitem-col-2">
+                                                                <div className="title">
+                                                                    Hair Dryer
+                                                                </div>
+                                                                <div className="deal-price price d-flex flex-column">
+                                                                    <span>$195.00</span>
+                                                                    <del>$299.99</del>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+
+                                            <li className="letest-items letest-items-2">
+                                                <div className='product-single'>
+                                                    <a href="/">
+                                                        <div className="row">
+                                                            <div className="col letestitem-col-1">
+                                                                <img src="src/images/HeadPhone.png" alt="" />
+                                                            </div>
+                                                            <div className="col letestitem-col-2">
+                                                                <div className="title">
+                                                                    BT-5 HeadPhone
+                                                                </div>
+                                                                <div className="deal-price price d-flex flex-column">
+                                                                    <span>$195.00</span>
+                                                                    <del>$299.99</del>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li className="letest-items letest-items-3"></li>
+                                            <div className='product-single'>
+                                                <a href="/">
+                                                    <div className="row">
+                                                        <div className="col letestitem-col-1">
+                                                            <img src="src/images/Helmate-image.png" alt="" />
+                                                        </div>
+                                                        <div className="col letestitem-col-2">
+                                                            <div className="title">
+                                                                Hair Dryer
+                                                            </div>
+                                                            <div className="deal-price price d-flex flex-column">
+                                                                <span>$195.00</span>
+                                                                <del>$299.99</del>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <li className="letest-items letest-items-4"></li>
+                                            <div className='product-single'>
+                                                <a href="/">
+                                                    <div className="row">
+                                                        <div className="col letestitem-col-1">
+                                                            <img src="src/images/hightechcctv-removebg-preview.png" alt="" />
+                                                        </div>
+                                                        <div className="col letestitem-col-2">
+                                                            <div className="title">
+                                                                Hair Dryer
+                                                            </div>
+                                                            <div className="deal-price price d-flex flex-column">
+                                                                <span>$195.00</span>
+                                                                <del>$299.99</del>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <li className="letest-items letest-items-5">
+                                                <div className='product-single'>
+                                                    <a href="">
+
+                                                        <div className="row">
+                                                            <div className="col letestitem-col-1">
+                                                                <img src="src/images/faceWash-slider.png" alt="" />
+                                                            </div>
+                                                            <div className="col letestitem-col-2">
+                                                                <div className="title">
+                                                                    Hair Dryer
+                                                                </div>
+                                                                <div className="deal-price price d-flex flex-column">
+                                                                    <span>$195.00</span>
+                                                                    <del>$299.99</del>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </SwiperSlide>
+                                </Swiper>
+
+                            </div>
+                        </div>
+                        {/* SUPPORT SERVICES  */}
+                        <div className="mt-5">
+                            <div className="store-support">
+                                <ul className="none-list">
+                                    <li className='d-flex'>
+                                        <div className="support-icon col-md-5 d-flex">
+                                            <i class="fa-solid fa-dolly"></i>
+                                        </div>
+                                        <div className="support-title col">
+                                            <strong>Free Delivery</strong>
+                                            <p>  For all order over 99$</p>
+                                        </div>
+                                    </li>
+                                    <li className='d-flex'>
+                                        <div className="support-icon col-md-5 d-flex">
+                                            <i class="fa-brands fa-nfc-directional fa-rotate-90 fw-bold"></i>
+                                        </div>
+                                        <div className="support-title col">
+                                            <strong>30 Days Return</strong>
+                                            <p>If goods have Problems</p>
+                                        </div>
+                                    </li>
+
+                                    <li className='d-flex'>
+                                        <div className="support-icon col-md-5 d-flex">
+                                            <i class="fa-regular fa-credit-card"></i>
+                                        </div>
+                                        <div className="support-title col">
+                                            <strong>Secure Payment</strong>
+                                            <p>100% secure payment</p>
+                                        </div>
+                                    </li>
+
+                                    <li className='d-flex'>
+                                        <div className="support-icon col-md-5 d-flex">
+                                            <i class="fa-solid fa-headset"></i>
+                                        </div>
+                                        <div className="support-title col">
+                                            <strong>24/7 Support</strong>
+                                            <p>Dedicated Support</p>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    {/*--------------- MAIN SECTION PRODUCT CATEGORY-------------*/}
                     <div className="category-container my-4 ms-4 position-relative ">
                         <div className="category-product position-relative">
                             <div className="section-title category-title ">
@@ -249,20 +567,35 @@ const ItemSliders = ( props) => {
                             <div className="product-category-crousel">
                                 <div className="product-warapper">
                                     <Swiper className='category-func'
-                                    modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-                                      spaceBetween={30}
+                                        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                                        spaceBetween={30}
                                         slidesPerView={4}
                                         navigation
                                         loop={true}
-                                        autoplay={{ delay: 3000, disableOnIntraction: false }}
-                                        onSlideChange={() => console.log('slide change')}
-                                        onSwiper={(swiper) => console.log(swiper)}
+                                        breakpoints={{
+                                            0: {
+                                                slidesPerView: 1,
+                                                spaceBetween: 10
+                                            },
+                                            450: {
+                                                slidesPerView: 2,
+                                                spaceBetween: 10
+                                            },
+                                            700: {
+                                                slidesPerView: 3,
+                                                spaceBetween: 20
+                                            },
+                                            1080: {
+                                                slidesPerView: 4,
+                                                spaceBetween: 25
+                                            }
+                                        }}
                                     >
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
                                                 <a href="/">
-                                                <img src="src/images/Helmate-image.png" alt="" />
-                                                <span>Sports & Outdoors</span>
+                                                    <img src="src/images/Helmate-image.png" alt="" />
+                                                    <span>Sports & Outdoors</span>
                                                 </a>
                                             </div>
 
@@ -270,26 +603,17 @@ const ItemSliders = ( props) => {
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
-                                            <a href="/">
-                                                <img src="src/images/HeadPhone.png" alt="" />
-                                                <span>HeadSets</span>
+                                                <a href="/">
+                                                    <img src="src/images/HeadPhone.png" alt="" />
+                                                    <span>HeadSets</span>
                                                 </a>
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
-                                            <a href="/">
-                                                <img src="src/images/Mobile-product.png" alt="" />
-                                                <span>Smart Phones</span>
-                                                </a>
-                                            </div>
-                                        </SwiperSlide>
-                                        <SwiperSlide className="product-item-wrapper">
-                                            <div className="product-item">
-                                                <a href="">
-
-                                                <img src="src/images/fridge-removebg-preview.png" alt="" />
-                                                <span>Home Appliances</span>
+                                                <a href="/">
+                                                    <img src="src/images/Mobile-product.png" alt="" />
+                                                    <span>Smart Phones</span>
                                                 </a>
                                             </div>
                                         </SwiperSlide>
@@ -297,8 +621,8 @@ const ItemSliders = ( props) => {
                                             <div className="product-item">
                                                 <a href="">
 
-                                                <img src="src/images/CCTV-image.png" alt="" />
-                                                <span>Security</span>
+                                                    <img src="src/images/fridge-removebg-preview.png" alt="" />
+                                                    <span>Home Appliances</span>
                                                 </a>
                                             </div>
                                         </SwiperSlide>
@@ -306,36 +630,69 @@ const ItemSliders = ( props) => {
                                             <div className="product-item">
                                                 <a href="">
 
-                                                <img src="src/images/MIcrowave-image.png" alt="" />
-                                                <span>Home Appliances</span>
+                                                    <img src="src/images/CCTV-image.png" alt="" />
+                                                    <span>Security</span>
                                                 </a>
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
                                                 <a href="">
-                                                <img src="src/images/WashingMachne.png" alt="" />
-                                                <span>Home Appliances</span>
-                                                </a>  
+
+                                                    <img src="src/images/MIcrowave-image.png" alt="" />
+                                                    <span>Home Appliances</span>
+                                                </a>
+                                            </div>
+                                        </SwiperSlide>
+                                        <SwiperSlide className="product-item-wrapper">
+                                            <div className="product-item">
+                                                <a href="">
+                                                    <img src="src/images/WashingMachne.png" alt="" />
+                                                    <span>Home Appliances</span>
+                                                </a>
                                             </div>
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
                                                 <a href="">
 
-                                                <img src="src/images/AirCooler-image.png" alt="" />
-                                                <span>Home Appliances</span>
+                                                    <img src="src/images/AirCooler-image.png" alt="" />
+                                                    <span>Home Appliances</span>
                                                 </a>
                                             </div>
                                         </SwiperSlide>
                                     </Swiper>
                                 </div>
                             </div>
+
+                            {/*--------------- PRODUCT TAB HOME-------------*/}
+                            <div className="product-tab mt-4">
+                                <div className="product-nav">
+                                    <button className='active'>New Arrivals</button>
+                                    <button className="mx-2">On Sale</button>
+                                    <button className="mx-2">Best Rated</button>
+                                </div>
+
+                                <div className="tab-content mt-5">
+
+                                    <div className="tab-product">
+                                        <div className="title">
+                                            <small>
+                                                <a href="/">Phone</a>
+                                            </small>
+                                            <h3>Blue Yeti USB Microphone Blackout Edition</h3>
+                                        </div>
+                                        <div className="thumb">
+                                            <img src="" alt="" />
+                                        </div>
+                                        <div className="rating"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </>

@@ -23,10 +23,9 @@ function App() {
 
       <TopNavbar />
       <div className={`${screenWidth>1440?"container":""}`}>
-
         <Navbar />
         <ProductSearch screenWidth={screenWidth}/>
-        <Home />
+        <Home screenWidth={screenWidth}/>
       </div>
 
     </>

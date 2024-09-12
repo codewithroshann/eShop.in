@@ -28,9 +28,7 @@ const ProductModule = () => {
                                     navigation
                                     pagination={{ clickable: true }}
                                     loop={true}
-                                    onSlideChange={() => console.log('slide change')}
-                                    onSwiper={(swiper) => console.log(swiper)}
-                                >
+                                                                  >
                                     <SwiperSlide>
                                         <img src="src/images/Laptop-1.jpg" alt="" />
                                     </SwiperSlide>

@@ -6,7 +6,7 @@ function Home(props) {
   return (
     <>
       <Hero />
-      <ItemSliders />
+      <ItemSliders screenWidth={props.screenWidth}/>
 
     </>
   )

@@ -77,15 +77,61 @@
   .text{
     padding: 20px 50px !important;
   }
- 
+  .category-container{
+    max-width: 76% !important;
+  
+  }
+  .slick-list {
+    width: 20.666% !important;
+}
+.view-btn {
+left: 18% !important;
+}
 }
 
 
 @media (max-width:1080px) {
+  .slick-list {
+    width:100% !important;
+}
+.slick-item{
+  min-height:37rem !important
+}
+.category-container{
+  margin-left: unset !important;
+  max-width: 100% !important;
+}
+.slider-container{
+  flex-direction: column;
+}
+.countdown{
+  justify-content: unset !important;
+  gap: 10px;
+}
+.view-btn{
+    top: 44% !important;
+    width: 90%;
+    left: unset !important;
+  padding: 10px 50px !important;
+  margin: auto;
+}
+.image-1{
+  width: 145px !important;
+}
+.image-2{
+  width: 225px !important;
+}
+.image-3{
+  width: 198px !important;
+}
+.image-4{
+  width: 235px !important;
+  height: 225px;
+}
 .rx-1{
   flex-direction: column;
-
-}
+  }
+  
 .product-image{
   width: 100% !important;
   margin: auto;
@@ -96,7 +142,33 @@
 .product-info span{
   font-size: 25px;
 }
+.mini-sidebar{
+  display: none;
 }
+
+.row{
+padding: 10px 20px;
+flex-direction: column;
+gap: 10px ;
+}
+.letestitem-col-1 img{
+  width:95px !important;
+    margin: unset !important;
+
+}
+.store-support ul li{
+  padding: 25px 20px !important;
+  gap: 20px;
+}
+.support-icon{
+  width: 12%;
+}
+
+}
+
+
+
+
 @media (max-width:970px) {
         .top-navbar{
         display: none;
@@ -122,10 +194,12 @@
   width: 85% !important;
   }
   .option-container{
+  
     width: 100%;
     padding-right: unset !important;
       }
       .option-box{
+        padding:20px 10px !important;
         justify-content: space-between !important;
         padding: 0 10px;
         width: 100% !important;
@@ -139,6 +213,8 @@
       .cost{
         display:none
       }
+ 
+
 }
 @media (max-width:680px) {
   .carousel{
@@ -150,6 +226,24 @@
     .prev,.next{
       top: 10rem !important;
     }
+    .image-1{
+      width: 105px !important;
+    }
+    .image-2{
+      width: 180px !important;
+      height: 157px !important;
+    }
+    .image-3{
+      width: 142px !important;
+    }
+    .image-4{
+      width: 235px !important;
+      height: 165px !important;
+    }
+    .slick-item {
+      min-height: 33rem !important;
+  }
+    
   }
 @media (max-width:550px) {
   .search-box select {
@@ -157,6 +251,25 @@ width:6rem !important;
   }
   .text {
     padding: 0 25px !important;
+  }
+  .image-2 {
+          width: 195px !important;
+      height: 165px !important;
+  }
+  
+}
+@media (max-width:650px) {
+  .image-4 {
+    width: 150px !important;
+  }
+  .image-2 {
+          width: 147px !important;
+      height: 228px;
+  }
+  
+  .view-btn{
+    left: 15px !important;
+
   }
   
 }
