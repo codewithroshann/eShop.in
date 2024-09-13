@@ -716,7 +716,7 @@ gap: 10px;
   background: transparent;
 
 }
-.active{
+.select-btn{
   border-bottom: 2px solid var(--blue) !important;
   font-size: 18px;
   font-weight: 500;

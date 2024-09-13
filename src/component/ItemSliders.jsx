@@ -668,7 +668,7 @@ const ItemSliders = (props) => {
                             {/*--------------- PRODUCT TAB HOME-------------*/}
                             <div className="product-tab mt-4">
                                 <div className="product-nav">
-                                    <button className='active'>New Arrivals</button>
+                                    <button className='select-btn'>New Arrivals</button>
                                     <button className="mx-2">On Sale</button>
                                     <button className="mx-2">Best Rated</button>
                                 </div>
@@ -681,11 +681,11 @@ const ItemSliders = (props) => {
                                                 <a href="/">Phone</a>
                                             </small>
                                             <h3>Blue Yeti USB Microphone Blackout Edition</h3>
+                                         </div>
+                                         <div className="thumb">
+                                             <img src="" alt="" />
                                         </div>
-                                        <div className="thumb">
-                                            <img src="" alt="" />
-                                        </div>
-                                        <div className="rating"></div>
+                                 <div className="rating"></div>
                                     </div>
                                 </div>
 
