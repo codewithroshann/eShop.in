@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Gucci Bag Limited Edition",
+    "price": "195.00",
+    "image": "src/images/Gucci-Bag.png",
+    "category": "fashion",
+    "offer":"75%"
+  },
+  {
+    "id": 2,
+    "name": "Samsung 32 inch Samrt Tv",
+    "price": "155.00",
+    "image": "src/images/Smart-TV-removebg-preview.png",
+    "category": "home appliances",
+    "offer":""
+  },
+  {
+    "id": 3,
+    "name": "Whirl Pool Multi MicroWave 150 Watt Power Saver",
+    "price": "225.00",
+    "image": "src/images/MIcrowave-image.png",
+    "category": "home appliances",
+    "offer":"45%"
+  },
+  {
+    "id": 4,
+    "name": "ZEEL Edition Rain Suit",
+    "price": "95.00",
+    "image": "src/images/RainSuit.png",
+    "category": "fashion",
+    "offer":""
+  },
+  {
+    "id": 5,
+    "name": "Apple Watch Ultra S9",
+    "price": "500.00",
+    "image": "src/images/Smart-Watch.png",
+    "category": "electronic",
+    "offer":""
+  },
+  {
+    "id": 6,
+    "name": "Cycle EV V15",
+    "price": "99.00",
+    "image": "src/images/Bycycle.png",
+    "category": "electronic",
+    "offer":"33%"
+  },
+  {
+    "id": 7,
+    "name": "Syska Hair Dryer",
+    "price": "199.00",
+    "image": "src/images/hairDryer-removebg-preview.png",
+    "category": "home appliances",
+    "offer":""
+  },
+  {
+    "id": 8,
+    "name": "RGB Strip Light",
+    "price": "55.00",
+    "image": "src/images/rgb-light-removebg-preview.png",
+    "category": "electronic",
+    "offer":""
+  },
+  {
+    "id": 9,
+    "name": "CP Plus CCTV Camera",
+    "price": "99.00",
+    "image": "src/images/product-cctv-removebg-preview.png",
+    "category": "electronic",
+    "offer":""
+  },
+  {
+    "id": 10,
+    "name": "Hair Mixer Grinder",
+    "price": "125.00",
+    "image": "src/images/Mixer-Grinder-removebg-preview.png",
+    "category": "home appliances",
+    "offer":"27%"
+  },
+  {
+    "id": 11,
+    "name": "Oppo A9 Pro 4gb",
+    "price": "200.00",
+    "image": "src/images/product-mobile-removebg-preview.png",
+    "category": "phone",
+    "offer":""
+  },
+  {
+    "id": 12,
+    "name": "LG Vaccum Cleaner S7",
+    "price": "359.00",
+    "image": "src/images/vaccum-Cleaner.png",
+    "category": "home appliances",
+    "offer":""
+  },
+  {
+    "id": 13,
+    "name": "Asus 28 inch Curve Gaming Moniter ",
+    "price": "499.00",
+    "image": "src/images/Curve-Moniter.png",
+    "category": "electronic",
+    "offer":"14%"
+  },
+  {
+    "id": 14,
+    "name": "PS5 Spider Man Edition 1TB",
+    "price": "699.00",
+    "image": "src/images/Gaming-Console.png",
+    "category": "Gaming",
+    "offer":"34%"
+  },
+  {
+    "id": 15,
+    "name": "Logi Tech Gaming Headphone",
+    "price": "385.00",
+    "image": "src/images/Logitech-headphone-removebg-preview.png",
+    "category": "gaming",
+    "offer":""
+  },
+  {
+    "id": 16,
+    "name": "Hair Washing Machine WX3",
+    "price": "299.00",
+    "image": "src/images/WashingMachne.png",
+    "category": "home appliances",
+    "offer":""
+  },
+  {
+    "id": 17,
+    "name": "Bajaj Table Fan ",
+    "price": "55.00",
+    "image": "src/images/Table_Fan-removebg-preview.png",
+    "category": "electronic",
+    "offer":""
+  },
+  {
+    "id": 18,
+    "name": "Sony Home Theater",
+    "price": "150.00",
+    "image": "src/images/Home_Theater-removebg-preview.png",
+    "category": "electronic",
+    "offer":"10%"
+  },
+  {
+    "id": 19,
+    "name": "LG Dubble Door Fridge",
+    "price": "359.00",
+    "image": "src/images/Morden_Fridge-removebg-preview.png",
+    "category": "home appliances",
+    "offer":"30%"
+  },
+  {
+    "id": 20,
+    "name": "Boult Audio Neck Band",
+    "price": "89.00",
+    "image": "src/images/Neck_Band-removebg-preview.png",
+    "category": "electronic",
+    "offer":""
+  },
+  {
+    "id": 21,
+    "name": "Gas Stove",
+    "price": "120.00",
+    "image": "src/images/Gas_Stove-removebg-preview.png",
+    "category": "home appliances",
+    "offer":""
+  },
+  {
+    "id": 22,
+    "name": "WhirPool Room Cooler",
+    "price": "350.00",
+    "image": "src/images/Cooler-removebg-preview.png",
+    "category": "home appliances",
+    "offer":"23%"
+  },
+  {
+    "id": 23,
+    "name": "Mordern Celling Fan",
+    "price": "75.00",
+    "image": "src/images/Celing_Fan-removebg-preview.png",
+    "category": "home appliances",
+    "offer":""
+  },
+  {
+    "id": 24,
+    "name": "Bolt Gaming TWS ",
+    "price": "99.00",
+    "image": "src/images/Gaming_Ear_buds-removebg-preview.png",
+    "category": "gaming",
+    "offer":""
+  },
+  {
+    "id": 25,
+    "name": "Nike AirMax Shoe ",
+    "price": "195.00",
+    "image": "src/images/shoe-slider.png",
+    "category": "fashion",
+    "offer":""
+  }
+]

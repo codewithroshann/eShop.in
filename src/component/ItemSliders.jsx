@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ProductModule from './ProductModule';
+import Product from './product.json'
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 {/*SWIPERJS MODULES  */ }
 import 'swiper/css';
@@ -48,7 +49,7 @@ const ItemSliders = (props) => {
                                     spaceBetween={20}
                                     slidesPerView={1}
                                     loop={true}
-                                    autoplay={{ delay: 3000000, disableOnIntraction: false }}
+                                    autoplay={{ delay: 3000, disableOnIntraction: false }}
                                     breakpoints={{
 
                                         320: {
@@ -73,7 +74,7 @@ const ItemSliders = (props) => {
                                         <p>Blue Yeti Remote Control Robot</p>
                                         <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
                                             <img src="src/images/robot-slider.png" className='extend image-1' alt="" />
-                                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                                 -25%
                                             </span>
                                         </div>
@@ -124,7 +125,7 @@ const ItemSliders = (props) => {
                                         <p>Nike White & Orange Airmax Shoe</p>
                                         <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
                                             <img src="src/images/shoe-slider.png" className='extend image-2' alt="" />
-                                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                                 -25%
                                             </span>
                                         </div>
@@ -174,7 +175,7 @@ const ItemSliders = (props) => {
                                         <p>Louis Vitton Limited Edition Bag</p>
                                         <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
                                             <img src="src/images/ladiesBag-slider.png" className='extend image-3' alt="" />
-                                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                                 -25%
                                             </span>
                                         </div>
@@ -224,7 +225,7 @@ const ItemSliders = (props) => {
                                         <p>DermaCo Vitamin C FaceWash</p>
                                         <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
                                             <img src="src/images/faceWash-slider.png" className='extend image-4' alt="" />
-                                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                                 -25%
                                             </span>
                                         </div>
@@ -513,7 +514,7 @@ const ItemSliders = (props) => {
                                 <ul className="none-list">
                                     <li className='d-flex'>
                                         <div className="support-icon col-md-5 d-flex">
-                                            <i class="fa-solid fa-dolly"></i>
+                                            <i className="fa-solid fa-dolly"></i>
                                         </div>
                                         <div className="support-title col">
                                             <strong>Free Delivery</strong>
@@ -522,7 +523,7 @@ const ItemSliders = (props) => {
                                     </li>
                                     <li className='d-flex'>
                                         <div className="support-icon col-md-5 d-flex">
-                                            <i class="fa-brands fa-nfc-directional fa-rotate-90 fw-bold"></i>
+                                            <i className="fa-brands fa-nfc-directional fa-rotate-90 fw-bold"></i>
                                         </div>
                                         <div className="support-title col">
                                             <strong>30 Days Return</strong>
@@ -532,7 +533,7 @@ const ItemSliders = (props) => {
 
                                     <li className='d-flex'>
                                         <div className="support-icon col-md-5 d-flex">
-                                            <i class="fa-regular fa-credit-card"></i>
+                                            <i className="fa-regular fa-credit-card"></i>
                                         </div>
                                         <div className="support-title col">
                                             <strong>Secure Payment</strong>
@@ -542,7 +543,7 @@ const ItemSliders = (props) => {
 
                                     <li className='d-flex'>
                                         <div className="support-icon col-md-5 d-flex">
-                                            <i class="fa-solid fa-headset"></i>
+                                            <i className="fa-solid fa-headset"></i>
                                         </div>
                                         <div className="support-title col">
                                             <strong>24/7 Support</strong>
@@ -561,6 +562,7 @@ const ItemSliders = (props) => {
                     {/*--------------- MAIN SECTION PRODUCT CATEGORY-------------*/}
                     <div className="category-container my-4 ms-4 position-relative ">
                         <div className="category-product position-relative">
+
                             <div className="section-title category-title ">
                                 <h3>Top Category</h3>
                             </div>
@@ -598,8 +600,6 @@ const ItemSliders = (props) => {
                                                     <span>Sports & Outdoors</span>
                                                 </a>
                                             </div>
-
-
                                         </SwiperSlide>
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
@@ -672,24 +672,120 @@ const ItemSliders = (props) => {
                                     <button className="mx-2">On Sale</button>
                                     <button className="mx-2">Best Rated</button>
                                 </div>
+                                <div className="tab-content mt-4">
 
-                                <div className="tab-content mt-5">
+                                    {
+                                        Product.map((data) => {
+                                            return <div className="tab-product">
+                                                <div className="title">
+                                                    <small>
+                                                        <a href="/">{data.category}</a>
+                                                    </small>
+                                                    <h2 className='mt-3 fw-semibold'>{data.name}</h2>
+                                                </div>
+                                                <div className="thumb d-flex mt-3  position-relative">
+                                                    <img src={data.image} alt="" />
+                                                    <span class={`position-absolute offer top-0 start-100 translate-middle  rounded-pill bg-danger ${data.offer === "" ? "" : "badge"}`} >
+                                                        {data.offer}
+                                                        <span class="visually-hidden">unread messages</span>
+                                                    </span>
+                                                </div>
+                                                <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view
+                                                </button>
+                                                <hr className="divider" />
+                                                <div className="rating mt-4 deal-price d-flex  justify-content-between mb-4 my-3">
+                                                    <div className=' px1 d-flex flex-column'>
+                                                        <del>$500.00</del>
+                                                        <span >${data.price}</span>
+                                                    </div>
 
-                                    <div className="tab-product">
-                                        <div className="title">
-                                            <small>
-                                                <a href="/">Phone</a>
-                                            </small>
-                                            <h3>Blue Yeti USB Microphone Blackout Edition</h3>
-                                         </div>
-                                         <div className="thumb">
-                                             <img src="" alt="" />
+                                                    <span className='rating d-flex align-items-center'>
+                                                        <i className="fa-solid fa-star" style={{ color: '#FFD43B' }}></i>
+                                                        <i className="fa-solid fa-star" style={{ color: '#FFD43B' }}></i>
+                                                        <i className="fa-solid fa-star" style={{ color: '#FFD43B' }}></i>
+                                                        <i className="fa-regular fa-star" style={{ color: '#FFD43B' }}></i>
+                                                        <i className="fa-regular fa-star" style={{ color: '#FFD43B' }}></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        })
+                                    }
+
+
+
+
+
+                                </div>
+                            </div>
+                            {/* BANNER SECTION */}
+                            <div className="d-flex banner-row mt-5">
+                                <div className="col-xl-4 d-flex">
+                                    <div className="col banner-col ">
+                                        <div className="product-value deal-price px1">
+                                            <span>$195.00</span>
+                                            <del className='ms-2'>$299.99</del>
                                         </div>
-                                 <div className="rating"></div>
+                                        <p>Sale Up To
+                                            <strong className='ms-1'>
+                                                25%
+                                                <br />
+                                                Off
+                                            </strong> Bosch Home
+                                        </p>
+                                        <a className='btn text-primary btn-outline-primary' href="/">BUY NOW</a>
+
+                                    </div>
+                                    <div className="col  justify-content-end">
+                                        <img src="src/images/Cooler-removebg-preview.png" alt="" />
+                                    </div>
+                                </div>
+                                <div className="col-xl-4 d-flex">
+                                    <div className="col banner-col ">
+                                        <div className="product-value deal-price px1">
+                                            <span>$345.00</span>
+                                            <del className='ms-2'>$429.99</del>
+                                        </div>
+                                        <p>Sale Up To
+                                            <strong className='ms-1'>
+                                                25%
+                                                <br />
+                                                Off
+                                            </strong> Bosch Home
+                                        </p>
+                                        <a className='btn text-primary btn-outline-primary' href="/">BUY NOW</a>
+
+                                    </div>
+                                    <div className="col  justify-content-end">
+                                        <img src="src/images/Mixer-Grinder-removebg-preview.png" alt="" />
+                                    </div>
+                                </div>
+                                <div className="col-xl-4 d-flex">
+                                    <div className="col banner-col ">
+                                        <div className="product-value deal-price px1">
+                                            <span>$195.00</span>
+                                            <del className='ms-2'>$299.99</del>
+                                        </div>
+                                        <p>Sale Up To
+                                            <strong className='ms-1'>
+                                                25%
+                                                <br />
+                                                Off
+                                            </strong> Bosch Home
+                                        </p>
+                                        <a className='btn text-primary btn-outline-primary' href="/">BUY NOW</a>
+
+                                    </div>
+                                    <div className="col  justify-content-end">
+                                        <img src="src/images/Home_Theater-removebg-preview.png" alt="" />
                                     </div>
                                 </div>
 
+                                
                             </div>
+
+
 
                         </div>
                     </div>
