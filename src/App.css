@@ -89,6 +89,9 @@
 .view-btn {
 left: 18% !important;
 }
+.view{
+  left: 24% !important;
+}
 }
 
 
@@ -111,11 +114,14 @@ left: 18% !important;
   gap: 10px;
 }
 .view-btn{
-    top: 44% !important;
+    top: 51% !important;
     width: 90%;
     left: unset !important;
   padding: 10px 50px !important;
   margin: auto;
+}
+.view{
+left :5% !important;
 }
 .image-1{
   width: 145px !important;

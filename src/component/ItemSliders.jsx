@@ -29,6 +29,16 @@ const ItemSliders = (props) => {
         const interval = setInterval(() => getTime(), 1000);
         return () => clearInterval(interval);
     })
+    // Filter Function
+
+    const [filterCategory, setFilterCategory] = useState("newArrivales");
+    const filterdItems = filterCategory === "newArrivales"
+        ? Product
+        : Product.filter(items => items.filter === filterCategory)
+    //Highlight Button
+    const getButton = (filter) => {
+        return filterCategory === filter ? "select-btn" : ""        
+    }
 
 
 
@@ -668,14 +678,14 @@ const ItemSliders = (props) => {
                             {/*--------------- PRODUCT TAB HOME-------------*/}
                             <div className="product-tab mt-4">
                                 <div className="product-nav">
-                                    <button className='select-btn'>New Arrivals</button>
-                                    <button className="mx-2">On Sale</button>
-                                    <button className="mx-2">Best Rated</button>
+                                    <button className={`filter-btn ${getButton("newArrivales")}`} onClick={() => setFilterCategory("newArrivales")}>New Arrivals</button>
+                                    <button className={`filter-btn mx-2 ${getButton("onSale")}`} onClick={() => setFilterCategory("onSale")}>On Sale</button>
+                                    <button className={`filter-btn mx-2 ${getButton("bestRated")}`} onClick={() => setFilterCategory("bestRated")}>Best Rated</button>
                                 </div>
                                 <div className="tab-content mt-4">
 
                                     {
-                                        Product.map((data) => {
+                                        filterdItems.map((data) => {
                                             return <div className="tab-product">
                                                 <div className="title">
                                                     <small>
@@ -782,7 +792,7 @@ const ItemSliders = (props) => {
                                     </div>
                                 </div>
 
-                                
+
                             </div>
 
 
