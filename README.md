@@ -1,4 +1,4 @@
-This is a eCommerce Website using React 
+This is a fully functional eCommerce Website ,  Where you can add,remove,increase,decrease quantity item in a cart using React ,Redux
 
 
 # React + Vite
