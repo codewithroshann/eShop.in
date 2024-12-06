@@ -1,0 +1,495 @@
+[
+  {
+    "id": 1,
+    "name": "Black & White Check Shirt",
+    "price": "195.00",
+    "image": "src/images/mens dubble pocket check shirt.png",
+    "category": "mens",
+    "offer": "",
+    "default": "allfashion",
+    "filter": "mens"
+  },
+  {
+    "id": 2,
+    "name": "Printed White Hoodie ",
+    "price": "155.00",
+    "image": "src/images/printed_white_hoddie-removebg-preview.png",
+    "category": "mens",
+    "offer": "",
+    "default": "allfashion",
+    "filter": "mens"
+  },
+  {
+    "id": 3,
+    "name": "Blue Halft Tshirt ",
+    "price": "225.00",
+    "image": "src/images/download-removebg-preview.png",
+    "category": "kids",
+    "offer": "",
+    "default": "allfashion",
+    "filter": "kids"
+  },
+  {
+    "id": 4,
+    "name": "Light Blue Jogger For Girls",
+    "price": "200.00",
+    "image": "src/images/download__1_-removebg-preview.png",
+    "category": "Girls",
+    "offer": "",
+    "default": "allfashion",
+    "filter": "womens"
+  },
+  {
+    "id": 5,
+    "name": "Blue Pricess Dress",
+    "price": "299",
+    "image": "src/images/il_570xN.5354722841_b569-removebg-preview.png",
+    "category": "kids",
+    "offer": "New",
+    "default": "allfashion",
+    "filter": "kids"
+  },
+  {
+    "id": 6,
+    "name": "Mens Demin Black Shirt",
+    "price": "99.00",
+    "image": "src/images/mens-denim-black-shirt-half-sleeve-s-to-xl-2227031077-psawq8bj-removebg-preview.png",
+    "category": "Mens",
+    "offer": "",
+    "default": "allfashion",
+    "filter": "mens"
+  },
+  {
+    "id": 7,
+    "name": "Pink&Blue SweetShirt",
+    "price": "129.00",
+    "image": "src/images/6187DuzxA-L-removebg-preview.png",
+    "category": "girls",
+    "offer": "New",
+    "default": "allfashion",
+    "filter": "womens"
+  },
+  {
+    "id": 8,
+    "name": "Brown Night Dress",
+    "price": "55.00",
+    "image": "src/images/107A2724final_1000x-removebg-preview.png",
+    "category": "womens",
+    "offer": "New",
+    "default": "allfashion",
+    "filter": "womens"
+  },
+  {
+    "id": 9,
+    "name": "Kurta",
+    "price": "99.00",
+    "image": "src/images/images-removebg-preview.png",
+    "category": "kids",
+    "offer": "",
+    "default": "allfashion",
+    "filter": "kids"
+  },
+  {
+    "id": 10,
+    "name": "Pajamas",
+    "price": "125.00",
+    "image": "src/images/download__2_-removebg-preview.png",
+    "category": "girls",
+    "offer": "",
+    "default": "allfashion",
+    "filter": "womens"
+  },
+  {
+    "id": 11,
+    "name": "Yellow Round Neck ",
+    "price": "80.00",
+    "image": "src/images/CKHD12-03-3-removebg-preview.png",
+    "category": "Boys",
+    "offer": "",
+    "default": "allfashion",
+    "filter": "mens"
+  },
+  {
+    "id": 12,
+    "name": "Ladies Sandle",
+    "price": "199.00",
+    "image": "src/images/13567205abd2aeea421950c6652e9eb64eba7e88-removebg-preview.png",
+    "category": "womens",
+    "offer": "Top Rated",
+    "default": "allfashion",
+    "filter": "womens"
+  },
+  {
+    "id": 13,
+    "name": "Plain Blue Hoodie ",
+    "price": "99.00",
+    "image": "src/images/Plain_Blue_Hoodie_for_Women-removebg-preview.png",
+    "category": "Girls",
+    "offer": "",
+    "default": "allfashion",
+    "filter": "womens"
+  },
+  {
+    "id": 14,
+    "name": "Printed Blue Tshirt",
+    "price": "49.00",
+    "image": "src/images/kgtee20d000-navy-1-removebg-preview.png",
+    "category": "kids",
+    "offer": "",
+    "default": "allfashion",
+    "filter": "kids"
+  },
+  {
+    "id": 15,
+    "name": "Green Check Shirt",
+    "price": "285.00",
+    "image": "src/images/GREEN-VENTO-PRE-removebg-preview.png",
+    "category": "mens",
+    "offer": "",
+    "default": "allfashion",
+    "filter": "mens"
+  },
+  {
+    "id": 16,
+    "name": "Plain Black Hoodie",
+    "price": "199.00",
+    "image": "src/images/Plain_Black_Hoodie-removebg-preview.png",
+    "category": "mens",
+    "offer": "",
+    "filter": "mens"
+  },
+  {
+    "id": 17,
+    "name": "Printed Black Hoodie",
+    "price": "215.00",
+    "image": "src/images/Printed_black_Hooddie-removebg-preview.png",
+    "category": "mens",
+    "offer": "New",
+    "filter": "mens"
+  },
+  {
+    "id": 18,
+    "name": "Full Sleeve Mens Shirt",
+    "price": "85.00",
+    "image": "src/images/Mens Shirt .png",
+    "category": "mens",
+    "offer": "",
+    "filter": "mens"
+  },
+  {
+    "id": 19,
+    "name": "Blue Fhyther Printed Shirt",
+    "price": "59.00",
+    "image": "src/images/Mens Blue Fhyther Printed Shirt.png",
+    "category": "mens",
+    "offer": "",
+    "filter": "mens"
+  },
+  {
+    "id": 20,
+    "name": " Full Sleeve Mens Shirt ",
+    "price": "89.00",
+    "image": "src/images/mens cyan color shirt.png",
+    "category": "mens",
+    "offer": "New",
+    "filter": "mens"
+  },
+  {
+    "id": 21,
+    "name": "White Dotted Blue Full Sleeve Shirt",
+    "price": "120.00",
+    "image": "src/images/2240401134FS-1-38_1-removebg-preview.png",
+    "category": "mens",
+    "offer": "",
+    "filter": "mens"
+  },
+  {
+    "id": 22,
+    "name": "White Check Shirt",
+    "price": "50.00",
+    "image": "src/images/check-casual-shirt-in-beige-aura-blackberrys-clothing-1-800x1000-removebg-preview.png",
+    "category": "mens",
+    "offer": "",
+    "filter": "mens"
+  },
+  {
+    "id": 23,
+    "name": "Orange&Black Air Jorden High",
+    "price": "300.00",
+    "image": "src/images/taxihigh1_1400x_f2438f06-7062-455e-9f69-c06851436360-removebg-preview.png",
+    "category": "shoes",
+    "offer": "New",
+    "default": "allfashion",
+    "filter": "mens"
+  },
+  {
+    "id": 24,
+    "name": "Blue Court And Pajama  ",
+    "price": "99.00",
+    "image": "src/images/boy-kids-wear-dress-1720519923-7494732-removebg-preview.png",
+    "category": "kids",
+    "offer": "Top Rated",
+    "default": "kids"
+  },
+  {
+    "id": 25,
+    "name": "Sky Blue Top & Jeans ",
+    "price": "35.00",
+    "image": "src/images/midi-for-girls-gs19121093-blue-model-image-removebg-preview.png",
+    "category": "kids",
+    "offer": "",
+    "filter": "kids"
+  },
+  {
+    "id": 26,
+    "name": "Track Suit  ",
+    "price": "95.00",
+    "image": "src/images/900461701_g0-removebg-preview.png",
+    "category": "kids",
+    "offer": "New",
+    "filter": "kids"
+  },
+  {
+    "id": 27,
+    "name": "Printed Tshirt ",
+    "price": "67.00",
+    "image": "src/images/618ACQY9bhL._AC_UY1100_-removebg-preview.png",
+    "category": "girl",
+    "offer": "",
+    "filter": "kids"
+  },
+  {
+    "id": 28,
+    "name": "Amoung Us 3D Printed Black Tshirt",
+    "price": "45.00",
+    "image": "src/images/Among-Us-Kids-T-Shirt-removebg-preview.png",
+    "category": "kids",
+    "offer": "",
+    "filter": "kids"
+  },
+  {
+    "id": 29,
+    "name": "Pink Kurti & Pajama ",
+    "price": "25.00",
+    "image": "src/images/p2eah_512-removebg-preview.png",
+    "category": "kids",
+    "offer": "",
+    "filter": "kids"
+  },
+  {
+    "id": 30,
+    "name": "Alphabet Printed Night Dress ",
+    "price": "44.00",
+    "image": "src/images/4qybf_512-removebg-preview.png",
+    "category": "kids",
+    "offer": "New",
+    "filter": "kids"
+  },
+  {
+    "id": 31,
+    "name": "White Jogger ",
+    "price": "74.00",
+    "image": "src/images/images-removebg-preview (1).png",
+    "category": "girls",
+    "offer": "",
+    "filter": "womens"
+  },
+  {
+    "id": 33,
+    "name": "Spiderman Printed Joggers",
+    "price": "29.00",
+    "image": "src/images/images__1_-removebg-preview.png",
+    "category": "girls",
+    "offer": "New",
+    "filter": "womens"
+  },
+  {
+    "id": 34,
+    "name": "Good Indian Printed Hoodie",
+    "price": "68.00",
+    "image": "src/images/4_80aecc96-124f-47db-9a79-96343c58e4bf-removebg-preview.png",
+    "category": "Mens`",
+    "offer": "New",
+    "filter": "mens"
+  },
+  {
+    "id": 35,
+    "name": "Girls Printed Pink Sweetshirt ",
+    "price": "39.00",
+    "image": "src/images/-473Wx593H-465051410-pink-MODEL-removebg-preview.png",
+    "category": "girls",
+    "offer": "",
+    "filter": "womens"
+  },
+  {
+    "id": 36,
+    "name": "Gray Crop Top SweetShirt ",
+    "price": "55.00",
+    "image": "src/images/crop-sweetshirt-for-girls-removebg-preview.png",
+    "category": "girls",
+    "offer": "",
+    "filter": "womens"
+  },
+  {
+    "id": 37,
+    "name": "PistaGreen Oversized Tshirt ",
+    "price": "77.00",
+    "image": "src/images/zrlp9_512-removebg-preview.png",
+    "category": "boys",
+    "offer": "New",
+    "filter": "mens"
+  },
+  {
+    "id": 38,
+    "name": "Black Printed Tshirt  ",
+    "price": "65.00",
+    "image": "src/images/223062205-1-38_1-removebg-preview.png",
+    "category": "boys",
+    "offer": "New",
+    "filter": "mens"
+  },
+  {
+    "id": 39,
+    "name": "White Wolf Printed Tshirt ",
+    "price": "49.00",
+    "image": "src/images/w32ie_512-removebg-preview.png",
+    "category": "boys",
+    "offer": "",
+    "filter": "mens"
+  },
+  {
+    "id": 40,
+    "name": "Marron Baby Girl Crop Top SweetShirt ",
+    "price": "24.00",
+    "image": "src/images/1572959303390-maroonbabygirlprintcropsweatshirt1-originnm80prcnt-removebg-preview.png",
+    "category": "girls",
+    "offer": "New",
+    "filter": "womens"
+  },
+  {
+    "id": 41,
+    "name": "Rounded Neck Yellow Tshirt ",
+    "price": "38.00",
+    "image": "src/images/comfortable-rounded-neck-cotton-blend-short-sleeves-yellow-men-s-t-shirt-736-removebg-preview.png",
+    "category": "boys",
+    "offer": "",
+    "filter": "mens"
+  },
+  {
+    "id": 42,
+    "name": "Superman Oversized Tshirt",
+    "price": "124.00",
+    "image": "src/images/61f-8Rh3HuL._AC_UY1100_-removebg-preview.png",
+    "category": "boys",
+    "offer": "new",
+    "filter": "mens"
+  },
+  {
+    "id": 43,
+    "name": "Black Printed Oversized Tshirt ",
+    "price": "99.00",
+    "image": "src/images/-473Wx593H-466797653-black-MODEL-removebg-preview.png",
+    "category": "boys",
+    "offer": "Top Rated",
+    "filter": "mens"
+  },
+  {
+    "id": 44,
+    "name": "Solid Color Oversized Tshirt ",
+    "price": "87.00",
+    "image": "src/images/2101bb1NB_THECB00027516_1-removebg-preview.png",
+    "category": "boys",
+    "offer": "",
+    "filter": "mens"
+  },
+  {
+    "id": 45,
+    "name": "Printed Oversized Tshirt ",
+    "price": "69.00",
+    "image": "src/images/back-view-mockup-of-a-woman-in-an-oversized-t-shirt-on-the-street-m25267-5-copy-1-removebg-preview.png",
+    "category": "fashion",
+    "offer": "",
+    "filter": "womens"
+  },
+  {
+    "id": 46,
+    "name": "Printed Oversized Tshirt Black ",
+    "price": "58.00",
+    "image": "src/images/Cute-Anime-Girl-Oversize-T-shirt-removebg-preview.png",
+    "category": "fashion",
+    "offer": "New",
+    "filter": "womens"
+  },
+  {
+    "id": 47,
+    "name": "White Custom Printed Tshirt ",
+    "price":"54.00",
+    "image": "src/images/47dffa2e-5c64-4e4b-a50e-de5a5ef22cfd_15140924-removebg-preview.png",
+    "category": "girls",
+    "offer": "New",
+    "filter": "womens"
+  },
+  {
+    "id": 48,
+    "name": "Black 3D Printed Oversized Tshirt ",
+    "price": "83.00",
+    "image": "src/images/women-s-blue-moody-jerry-graphic-printed-oversized-t-shirt-585902-1715257595-1-removebg-preview.png",
+    "category": "fashion",
+    "offer": "New",
+    "filter": "womens"
+  },
+  {
+    "id": 49,
+    "name": "Brown Teddy Bear Printed Oversized Hoodie",
+    "price": "104.00",
+    "image": "src/images/webp-removebg-preview.png",
+    "category": "mens",
+    "offer": "New",
+    "filter": "mens"
+  },
+  {
+    "id": 50,
+    "name": "Olive Green Oversized Hoodie",
+    "price": "120.00",
+    "image": "src/images/-473Wx593H-442532843-olive-MODEL-removebg-preview.png",
+    "category": "mens",
+    "offer": "New",
+    "filter": "mens"
+  },
+  {
+    "id": 51,
+    "name": "Blue Oversized Hoodie",
+    "price": "65.00",
+    "image": "src/images/space-walkl-men_s-oversized-hoodies-front-removebg-preview.png",
+    "category": "mens",
+    "offer": "New",
+    "filter": "mens"
+  },
+  {
+    "id": 52,
+    "name": "Blue Night Dress",
+    "price": "49.00",
+    "image": "src/images/sweet_dreams_navy_color_short_night_dress_style_no_OCW_2963_3-removebg-preview.png",
+    "category": "fashion",
+    "offer": "New",
+    "filter": "womens"
+  },
+  {
+    "id": 53,
+    "name": "Pink Fruit Printed Night Dress",
+    "price": "35.00",
+    "image": "src/images/dropbox_5247220917010953-removebg-preview.png",
+    "category": "girls",
+    "offer": "",
+    "filter": "kids"
+  },
+  {
+    "id": 54,
+    "name": "Clovia Short Night Dress",
+    "price": "59.00",
+    "image": "src/images/clovia-cotton-short-length-nightdress-blue-removebg-preview.png",
+    "category": "fashion",
+    "offer": "",
+    "filter": "womens"
+  }
+]

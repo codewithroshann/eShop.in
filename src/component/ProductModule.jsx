@@ -1,113 +1,157 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import { useSelector, useDispatch } from 'react-redux';
+import { addToCart } from './Redux/Slices/cartReducer';
+import { removeProduct } from './Redux/Slices/showProducts';
+import { Link, redirect } from 'react-router-dom';
+
 {/*SWIPERJS MODULES  */ }
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Alert from './Alert';
+import { clearAlert, setAlert } from './Redux/Slices/alertReducer';
 
 const ProductModule = () => {
+    const [state, setState] = useState(1)
+    const dispatch = useDispatch();
+    const showProducts = useSelector(state => state.showProducts.products)
+    const Products = useSelector(state => state.cart.items)
+    const handleQuantity = (e) => {
+        setState(e.target.value)
+    }
+    const OrderDispatch = (items) => {
+        if (Products.find((item) => item.id === items.id)) {
+            dispatch(setAlert({ message: "Item Already Added !", type: "warning" }))
+            setTimeout(() => {
+                dispatch(clearAlert())
+            }, 2500);
+            
+        } else {
+            dispatch(addToCart(items))
+            dispatch(setAlert({ message: "Item Added Successfully!", type: "success" }))
+            setTimeout(() => {                
+                dispatch(clearAlert())
+            }, 2500);
+            redirect("/cart")
+        }
+    }
+
     return (
         <>
-            {/*--------------------MODAL--------------------*/}
-            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div className="modal-dialog " >
+            {/* --------------------MODAL--------------------*/}
+
+            {<div className="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <Alert />
+                <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h1 className="modal-title fs-5" id="exampleModalLabel"></h1>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h1 className="modal-title fs-5" id="staticBackdropLabel"></h1>
                         </div>
-                        <div className="modal-body rx-1 d-flex">
-                            <div className="product-image">
-                                <Swiper
-                                    modules={[Navigation, Pagination, Scrollbar, A11y]}
-                                    spaceBetween={50}
-                                    slidesPerView={1}
-                                    navigation
-                                    pagination={{ clickable: true }}
-                                    loop={true}
-                                                                  >
-                                    <SwiperSlide>
-                                        <img src="src/images/Laptop-1.jpg" alt="" />
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <img src="src/images/Laptop-2.jpg" alt="" />
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <img src="src/images/Laptop-3.jpg" alt="" />
-                                    </SwiperSlide>
-                                </Swiper>
-                            </div>
-                            <div className="product-infobox">
-                                <div className="product-info">
-                                    <span>Apple The New MacBook Retina 2016 MLHA2 12 inches</span>
-                                    <div className="product-discription my-3">
-                                        <p>1.6 GHz dual-core Intel Core i5 (Turbo Boost up to 2.7 GHz) with 3 MB shared L3 cache 8 GB of 1600 MHz LPDDR3 RAM; 128 GB PCIe-based flash storage</p>
-                                        <p>13.3-Inch (diagonal) LED-backlit Glossy Widescreen Display, 1440 x 900 resolution Intel HD Graphics 6000</p>
-                                        <p>OS X El Capitan, Up to 12 Hours of Battery Life Macbook Air does not have a Retina display on any model.</p>
+                        {showProducts.map((items, key) => {
+
+                            return <div className="modal-body rx-1 d-flex" key={key}>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" onClick={() => { dispatch(removeProduct(items)) }} ></button>
+                                <div className="product-image">
+                                    <Swiper
+                                        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                                        spaceBetween={50}
+                                        slidesPerView={1}
+                                        navigation
+                                        pagination={{ clickable: true }}
+                                        loop={true}
+                                        autoplay={{ delay: 3000, disableOnIntraction: false }}
+                                    >
+                                        <SwiperSlide>
+                                            <img src={items.image} alt="" />
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                            <img src={items.image} alt="" />
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                            <img src={items.image} alt="" />
+                                        </SwiperSlide>
+
+                                    </Swiper>
+                                </div>
+                                <div className="product-infobox">
+                                    <div className="product-info">
+                                        <span>{items.name}</span>
+                                        <div className="product-discription my-3">
+                                            <p>1.6 GHz dual-core Intel Core i5 (Turbo Boost up to 2.7 GHz) with 3 MB shared L3 cache 8 GB of 1600 MHz LPDDR3 RAM; 128 GB PCIe-based flash storage</p>
+                                            <p>13.3-Inch (diagonal) LED-backlit Glossy Widescreen Display, 1440 x 900 resolution Intel HD Graphics 6000</p>
+                                            <p>OS X El Capitan, Up to 12 Hours of Battery Life Macbook Air does not have a Retina display on any model.</p>
+                                        </div>
+                                    </div>
+                                    <hr className="divider" />
+                                    <div className="product-meta">
+
+                                        <ul className="list-none">
+                                            <li>MODEL : MAC90012K <span>|</span></li>
+                                            <li>Categories : <a href={items.category}>{items.category}</a><span>|</span></li>
+                                            <li>Tags : <a href="/">Tech, </a><a href="/">Apple, MacBook, </a><a href="/">Laptop</a></li>
+                                        </ul>
+                                        <div className="share-links">
+                                            <span>  Share Links : </span>
+                                            <a href=""><i className="fa-brands fa-facebook-f"></i></a>
+                                            <a href=""><i className="fa-brands fa-whatsapp"></i></a>
+                                            <a href=""><i className="fa-brands fa-instagram"></i></a>
+                                            <a href=""><i className="fa-brands fa-twitter"></i></a>
+                                        </div>
                                     </div>
                                 </div>
-                                <hr className="divider" />
-                                <div className="product-meta">
-
-                                    <ul className="list-none">
-                                        <li>MODEL : MAC90012K <span>|</span></li>
-                                        <li>Categories : <a href="/">Tech Macbook Laptop</a><span>|</span></li>
-                                        <li>Tags : <a href="/">Tech, </a><a href="/">Apple, MacBook, </a><a href="/">Laptop</a></li>
-                                    </ul>
-                                    <div className="share-links">
-                                        <span>  Share Links : </span>
-                                        <a href=""><i className="fa-brands fa-facebook-f"></i></a>
-                                        <a href=""><i className="fa-brands fa-whatsapp"></i></a>
-                                        <a href=""><i className="fa-brands fa-instagram"></i></a>
-                                        <a href=""><i className="fa-brands fa-twitter"></i></a>
+                            </div>
+                        })
+                        }
+                        {
+                            showProducts.map((items, key) => {
+                                return <div className="modal-body rx-2" key={key}>
+                                    <div className="row lg-4"></div>
+                                    <div className="free-delivery ">
+                                        <button><i className="fa-solid fa-truck-fast"></i>Free Delivery</button>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="modal-body rx-2">
-                            <div className="row lg-4"></div>
-                            <div className="free-delivery ">
-                                <button><i className="fa-solid fa-truck-fast"></i>Free Delivery</button>
-                            </div>
-                            <div className="product-rating-rice my-3">
-                                <div>
-                                    <del style={{ color: "#4c4c4c" }}>$629.99</del>
-                                </div>
-                                <span>$495.00</span>
-                                <span className='rating d-flex align-items-center'>
-                                    <i className="fa-solid fa-star" style={{ color: '#FFD43B' }}></i>
-                                    <i className="fa-solid fa-star" style={{ color: '#FFD43B' }}></i>
-                                    <i className="fa-solid fa-star" style={{ color: '#FFD43B' }}></i>
-                                    <i className="fa-regular fa-star" style={{ color: '#FFD43B' }}></i>
-                                    <i className="fa-regular fa-star" style={{ color: '#FFD43B' }}></i>
-                                </span>
-                            </div>
-                            <div className="product-color d-flex align-items-center">
-                                <label>Select Color :</label>
-                                <ul className="list-none d-inline-block">
-                                    <li>red</li>
-                                    <li>black</li>
-                                    <li>blue</li>
-                                </ul>
-                            </div>
+                                    <div className="product-rating-rice my-3">
+                                        <div>
+                                            <del style={{ color: "#4c4c4c" }}>$629.99</del>
+                                        </div>
+                                        <span>${items.price}</span>
+                                        <span className='rating d-flex align-items-center'>
+                                            <i className="fa-solid fa-star" style={{ color: '#FFD43B' }}></i>
+                                            <i className="fa-solid fa-star" style={{ color: '#FFD43B' }}></i>
+                                            <i className="fa-solid fa-star" style={{ color: '#FFD43B' }}></i>
+                                            <i className="fa-regular fa-star" style={{ color: '#FFD43B' }}></i>
+                                            <i className="fa-regular fa-star" style={{ color: '#FFD43B' }}></i>
+                                        </span>
+                                    </div>
+                                    <div className="product-color d-flex align-items-center">
+                                        <label>Select Color :</label>
+                                        <ul className="list-none d-inline-block">
+                                            <li>red</li>
+                                            <li>black</li>
+                                            <li>blue</li>
+                                        </ul>
+                                    </div>
 
-                            <div className="product-quantity mt-3">
-                            <label >Quantity : </label>
-                            <input type="number"value={1} />
-                            </div>
-                            <div className="cart-buy-option mt-4">
-                                <button>Add To Cart</button>
-                                <button>Buy Now</button>
-                            </div>
-                            
-                        </div>
+                                    <div className="product-quantity mt-3">
+                                        <label >Quantity : </label>
+                                        <input type="number" value={state} onChange={handleQuantity} />
+                                    </div>
+                                    <div className="cart-buy-option mt-4">
+                                        <a className='text-decroration-none' style={{ textDecoration: "none" }} >  <button onClick={() => dispatch(OrderDispatch(items))}>Add To Cart</button></a>
+                                        <button className='disabled' >Buy Now</button>
+                                    </div>
+
+                                </div>
+                            })
+                        }
 
                     </div>
                 </div>
             </div>
+            }
         </>
     )
 }

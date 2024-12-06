@@ -1,11 +1,11 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Gucci Bag Limited Edition",
     "price": "195.00",
     "image": "src/images/Gucci-Bag.png",
     "category": "fashion",
-    "offer":"75%",
+    "offer":"75% OFF",
     "filter":"onSale"
   },
   {
@@ -14,7 +14,7 @@
     "price": "155.00",
     "image": "src/images/Smart-TV-removebg-preview.png",
     "category": "home appliances",
-    "offer":"",
+    "offer":"Top Rated",
     "filter":"bestRated"
   },
   {
@@ -23,7 +23,7 @@
     "price": "225.00",
     "image": "src/images/MIcrowave-image.png",
     "category": "home appliances",
-    "offer":"45%",
+    "offer":"45% OFF",
     "filter":"onSale"
   },
   {
@@ -32,7 +32,7 @@
     "price": "95.00",
     "image": "src/images/RainSuit.png",
     "category": "fashion",
-    "offer":"",
+    "offer":"New",
     "filter":"newArrivales"
   },
   {
@@ -41,7 +41,7 @@
     "price": "500.00",
     "image": "src/images/Smart-Watch.png",
     "category": "electronic",
-    "offer":"",
+    "offer":"Top Rated",
     "filter":"bestRated"
   },
   {
@@ -50,7 +50,7 @@
     "price": "99.00",
     "image": "src/images/Bycycle.png",
     "category": "electronic",
-    "offer":"33%",
+    "offer":"33% OFF",
     "filter":"onSale"
   },
   {
@@ -59,7 +59,7 @@
     "price": "199.00",
     "image": "src/images/hairDryer-removebg-preview.png",
     "category": "home appliances",
-    "offer":"",
+    "offer":"New",
     "filter":"newArrivales"
   },
   {
@@ -68,7 +68,7 @@
     "price": "55.00",
     "image": "src/images/rgb-light-removebg-preview.png",
     "category": "electronic",
-    "offer":"",
+    "offer":"New",
     "filter":"newArrivales"
   },
   {
@@ -77,7 +77,7 @@
     "price": "99.00",
     "image": "src/images/product-cctv-removebg-preview.png",
     "category": "electronic",
-    "offer":"",
+    "offer":"New",
     "filter":"newArrivales"
   },
   {
@@ -86,7 +86,7 @@
     "price": "125.00",
     "image": "src/images/Mixer-Grinder-removebg-preview.png",
     "category": "home appliances",
-    "offer":"27%",
+    "offer":"27% OFF",
     "filter":"onSale"
   },
   {
@@ -95,7 +95,7 @@
     "price": "200.00",
     "image": "src/images/product-mobile-removebg-preview.png",
     "category": "phone",
-    "offer":"",
+    "offer":"New",
     "filter":"newArrivales"
   },
   {
@@ -104,7 +104,7 @@
     "price": "359.00",
     "image": "src/images/vaccum-Cleaner.png",
     "category": "home appliances",
-    "offer":"",
+    "offer":"Top Rated",
     "filter":"bestRated"
   },
   {
@@ -113,7 +113,7 @@
     "price": "499.00",
     "image": "src/images/Curve-Moniter.png",
     "category": "electronic",
-    "offer":"14%",
+    "offer":"14% OFF",
     "filter":"onSale"
   },
   {
@@ -122,7 +122,7 @@
     "price": "699.00",
     "image": "src/images/Gaming-Console.png",
     "category": "Gaming",
-    "offer":"34%",
+    "offer":"34% OFF",
     "filter":"onSale"
   },
   {
@@ -131,7 +131,7 @@
     "price": "385.00",
     "image": "src/images/Logitech-headphone-removebg-preview.png",
     "category": "gaming",
-    "offer":"",
+    "offer":"Top Rated",
     "filter":"bestRated"
   },
   {
@@ -140,7 +140,7 @@
     "price": "299.00",
     "image": "src/images/WashingMachne.png",
     "category": "home appliances",
-    "offer":"",
+    "offer":"Top Rated",
     "filter":"bestRated"
   },
   {
@@ -149,7 +149,7 @@
     "price": "55.00",
     "image": "src/images/Table_Fan-removebg-preview.png",
     "category": "electronic",
-    "offer":"",
+    "offer":"New",
     "filter":"newArrivales"
   },
   {
@@ -158,7 +158,7 @@
     "price": "150.00",
     "image": "src/images/Home_Theater-removebg-preview.png",
     "category": "electronic",
-    "offer":"10%",
+    "offer":"10% OFF",
     "filter":"onSale"
   },
   {
@@ -167,7 +167,7 @@
     "price": "359.00",
     "image": "src/images/Morden_Fridge-removebg-preview.png",
     "category": "home appliances",
-    "offer":"30%",
+    "offer":"30% OFF",
     "filter":"onSale"
   },
   {
@@ -176,7 +176,7 @@
     "price": "89.00",
     "image": "src/images/Neck_Band-removebg-preview.png",
     "category": "electronic",
-    "offer":"",
+    "offer":"New",
     "filter":"newArrivales"
   },
   {
@@ -185,7 +185,7 @@
     "price": "120.00",
     "image": "src/images/Gas_Stove-removebg-preview.png",
     "category": "home appliances",
-    "offer":"",
+    "offer":"New",
     "filter":"newArrivales"
   },
   {
@@ -194,7 +194,7 @@
     "price": "350.00",
     "image": "src/images/Cooler-removebg-preview.png",
     "category": "home appliances",
-    "offer":"23%",
+    "offer":"23% OFF",
     "filter":"onSale"
   },
   {
@@ -203,7 +203,7 @@
     "price": "75.00",
     "image": "src/images/Celing_Fan-removebg-preview.png",
     "category": "home appliances",
-    "offer":"",
+    "offer":"New",
     "filter":"newArrivales"
   },
   {
@@ -212,16 +212,16 @@
     "price": "99.00",
     "image": "src/images/Gaming_Ear_buds-removebg-preview.png",
     "category": "gaming",
-    "offer":"",
+    "offer":"Top Rated",
     "filter":"bestRated"
   },
   {
     "id": 25,
     "name": "Nike AirMax Shoe ",
     "price": "195.00",
-    "image": "src/images/shoe-slider.png",
+    "image": "src/images/1_1bd86e2c-2947-4669-b4af-36936e4efd24-removebg-preview.png",
     "category": "fashion",
-    "offer":"",
+    "offer":"New",
     "filter":"newArrivales"
   }
 ]

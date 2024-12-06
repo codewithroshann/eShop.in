@@ -1,0 +1,516 @@
+[
+  {
+    "id": 1,
+    "name": "Elekta Power Saving AC",
+    "price": "350.00",
+    "image": "src/images/Ac_2.0-removebg-preview.png",
+    "category": "electronic",
+    "offer": "64% OFF",
+    "filter": "allaccessories"
+  },
+  {
+    "id": 2,
+    "name": "EGO Hair Dryer Primum Edition",
+    "price": "155.00",
+    "image": "src/images/ego-Hairdryer-Transparent-Image.png",
+    "category": "electronic",
+    "offer": "",
+    "filter": "allaccessories"
+  },
+  {
+    "id": 3,
+    "name": "Hitachi Electric Room Heater 500W",
+    "price": "225.00",
+    "image": "src/images/Elec_Room_Heater-removebg-preview.png",
+    "category": "home appliances",
+    "offer": "",
+    "filter": "allaccessories"
+  },
+  {
+    "id": 4,
+    "name": "MI 120 Watt Dart Charger",
+    "price": "95.00",
+    "image": "src/images/Charger_120watt-removebg-preview.png",
+    "category": "electronic",
+    "offer": "New",
+    "filter": "allaccessories"
+  },
+  {
+    "id": 5,
+    "name": "Day & Night CCtv Camera",
+    "price": "225.00",
+    "image": "src/images/CCtv_Black-removebg-preview.png",
+    "category": "electronic",
+    "offer": "",
+    "filter": "allaccessories"
+  },
+  {
+    "id": 6,
+    "name": "Electric Room Cleaner",
+    "price": "349.00",
+    "image": "src/images/Room_Cleaner_Robot-removebg-preview.png",
+    "category": "home appliances",
+    "offer": "33% OFF",
+    "filter": "allaccessories"
+  },
+  {
+    "id": 7,
+    "name": "Phillips Trimmer s1000",
+    "price": "199.00",
+    "image": "src/images/trimmer-removebg-preview.png",
+    "category": "electronic",
+    "offer": "",
+    "filter": "allaccessories"
+  },
+  {
+    "id": 8,
+    "name": "Bose Mini Speaker ",
+    "price": "69.00",
+    "image": "src/images/Bose_Speaker-removebg-preview.png",
+    "category": "electronic",
+    "offer": "",
+    "filter": "allaccessories"
+  },
+  {
+    "id": 9,
+    "name": "Boxer Headphone Extra Shoft Cution",
+    "price": "99.00",
+    "image": "src/images/Logitech-headphone-removebg-preview.png",
+    "category": "electronic",
+    "offer": "",
+    "filter": "allaccessories"
+  },
+  {
+    "id": 10,
+    "name": "Digital Table Clock",
+    "price": "125.00",
+    "image": "src/images/DIgital_table_Clock-removebg-preview.png",
+    "category": "electronic",
+    "offer": "new",
+    "filter": "allaccessories"
+  },
+  {
+    "id": 11,
+    "name": "Google Pixel 8 Pro ",
+    "price": "624.00",
+    "image": "src/images/Google Pixel 8 pro.png",
+    "category": "phone",
+    "offer": "",
+    "filter": "phone"
+  },
+  {
+    "id": 12,
+    "name": "Vivo X100 Ultra",
+    "price": "1266.00",
+    "image": "src/images/Vivo_x100_ultra-removebg-preview.png",
+    "category": "phone",
+    "offer": "New",
+    "filter": "phone"
+  },
+  {
+    "id": 13,
+    "name": "Mi Pad 5 Pro",
+    "price": "380.00",
+    "image": "src/images/Mi_Pad_5_Pro-removebg-preview.png",
+    "category": "Tablet",
+    "offer": "14% OFF",
+    "filter": "phone"
+  },
+  {
+    "id": 14,
+    "name": "I Phone 14 Pro 128GB",
+    "price": "620.00",
+    "image": "src/images/iphone_png-removebg-preview.png",
+    "category": "phone",
+    "offer": "",
+    "filter": "phone"
+  },
+  {
+    "id": 15,
+    "name": "Realme 13 Pro +",
+    "price": "469.00",
+    "image": "src/images/Realme 13 pro +.png",
+    "category": "phone",
+    "offer": "New",
+    "filter": "phone"
+  },
+  {
+    "id": 16,
+    "name": "1  Plus Pad Pro",
+    "price": "659.00",
+    "image": "src/images/1 Plus pad.png",
+    "category": "tablet",
+    "offer": "",
+    "filter": "phone"
+  },
+  {
+    "id": 17,
+    "name": "Nothing Phone 2a 256Gb ",
+    "price": "399.00",
+    "image": "src/images/Nothing_Phone_2a-removebg-preview.png",
+    "category": "phone",
+    "offer": "New",
+    "filter": "phone"
+  },
+  {
+    "id": 18,
+    "name": "Google Pixel Fold 128GB",
+    "price": "489.00",
+    "image": "src/images/Google_Pixel__Fold-removebg-preview.png",
+    "category": "phone",
+    "offer": "New",
+    "filter": "phone"
+  },
+  {
+    "id": 19,
+    "name": "Xiaomi 14 Pro",
+    "price": "359.00",
+    "image": "src/images/Xiaomi_14_pro-removebg-preview.png",
+    "category": "phone",
+    "offer": "New",
+    "filter": "phone"
+  },
+  {
+    "id": 20,
+    "name": "Apple Pad S9 Pro 512GB",
+    "price": "755.00",
+    "image": "src/images/I_Pad_Pro_11_gen-removebg-preview.png",
+    "category": "phone",
+    "offer": "",
+    "filter": "phone"
+  },
+  {
+    "id": 21,
+    "name": "Oppo Reno 11 Pro",
+    "price": "420.00",
+    "image": "src/images/Oppo_Reno_11_pro-removebg-preview.png",
+    "category": "phone",
+    "offer": "",
+    "filter": "phone"
+  },
+  {
+    "id": 22,
+    "name": "Redmagic 8 Pro ",
+    "price": "440.00",
+    "image": "src/images/RedMagic_8_pro-removebg-preview.png",
+    "category": "phone",
+    "offer": "",
+    "filter": "phone"
+  },
+  {
+    "id": 23,
+    "name": "Iphone 15 Pro Max 256GB",
+    "price": "875.00",
+    "image": "src/images/iphone_15_pro_max-removebg-preview.png",
+    "category": "phone",
+    "offer": "",
+    "filter": "phone"
+  },
+  {
+    "id": 24,
+    "name": "Samsung S24 Ultra 512GB ",
+    "price": "999.00",
+    "image": "src/images/SAmsung_S23_Ultra-removebg-preview.png",
+    "category": "phone",
+    "offer": "New",
+    "filter": "phone"
+  },
+  {
+    "id": 25,
+    "name": "Motorola Razr Flip Phone 128GB",
+    "price": "695.00",
+    "image": "src/images/MotoRolla_Razer_Fold_Phone-removebg-preview.png",
+    "category": "phone",
+    "offer": "",
+    "filter": "phone"
+  },
+  {
+    "id": 26,
+    "name": "Samsung Galaxy Tab S9 Pro",
+    "price": "495.00",
+    "image": "src/images/Galaxy-Tab-S9.png",
+    "category": "tablet",
+    "offer": "",
+    "filter": "phone"
+  },
+  {
+    "id": 27,
+    "name": "Asus ROG 7 Ultimate 256GB",
+    "price": "879.00",
+    "image": "src/images/Rog_Phone_7_Ultimate-removebg-preview.png",
+    "category": "phone",
+    "offer": "New",
+    "filter": "phone"
+  },
+  {
+    "id": 28,
+    "name": "1 Plus 12 Pro 128GB",
+    "price": "435.00",
+    "image": "src/images/1_Plus_12_green-removebg-preview.png",
+    "category": "phone",
+    "offer": "New",
+    "filter": "phone"
+  },
+  {
+    "id": 29,
+    "name": "Infinix Zero 40 5G",
+    "price": "255.00",
+    "image": "src/images/Infinix_Zero_40_5g-removebg-preview.png",
+    "category": "phone",
+    "offer": "New",
+    "filter": "phone"
+  },
+  {
+    "id": 30,
+    "name": "Microsoft Xbox 360 Series X 1 TB",
+    "price": "599.00",
+    "image": "src/images/Xbox Series x console.png",
+    "category": "games",
+    "offer": "",
+    "filter": "games"
+  },
+  {
+    "id": 31,
+    "name": "ROG Ally Gaming Console 1TB",
+    "price": "445.00",
+    "image": "src/images/Rog_Ally_Console-removebg-preview.png",
+    "category": "games",
+    "offer": "New",
+    "filter": "games"
+  },
+  {
+    "id": 32,
+    "name": "PlayStation 5 GTA V Complete Edition 2012",
+    "price": "120.00",
+    "image": "src/images/Gta_v-removebg-preview.png",
+    "category": "games",
+    "offer": "",
+    "filter": "games"
+  },
+  {
+    "id": 33,
+    "name": "PlayStation 5 FarCry 6 ",
+    "price": "120.00",
+    "image": "src/images/FarCry_6-removebg-preview.png",
+    "category": "games",
+    "offer": "New",
+    "filter": "games"
+  },
+  {
+    "id": 30,
+    "name": "PlayStation 5 30th Anniversary Limited Edition 1TB",
+    "price": "999.00",
+    "image": "src/images/PlayStation-30th-Anniversary-Edition_jpg-removebg-preview.png",
+    "category": "games",
+    "offer": "New",
+    "filter": "games"
+  },
+  {
+    "id": 31,
+    "name": "Zebronics Max Fury Game Controller",
+    "price": "55.00",
+    "image": "src/images/Zeb-max-Fury-removebg-preview.png",
+    "category": "games",
+    "offer": "New",
+    "filter": "games"
+  },
+  {
+    "id": 32,
+    "name": "PlayStation 4 Red Dead Redemption 2",
+    "price": "120.00",
+    "image": "src/images/Red_Dead_Redemption_2-removebg-preview.png",
+    "category": "games",
+    "offer": "",
+    "filter": "games"
+  },
+  {
+    "id": 33,
+    "name": "PlayStation 5 Controller Spiderman Skin",
+    "price": "22.00",
+    "image": "src/images/Ps5_custom_Controller-removebg-preview.png",
+    "category": "games",
+    "offer": "",
+    "filter": "games"
+  },
+  {
+    "id": 34,
+    "name": "PlayStation 4 God Of War Ragnarok",
+    "price": "120.00",
+    "image": "src/images/God_Of_War_Ragnarok_cd-removebg-preview.png",
+    "category": "games",
+    "offer": "New",
+    "filter": "games"
+  },
+  {
+    "id": 35,
+    "name": "PlayStation 5 Spiderman Edition Edition 1TB",
+    "price": "999.00",
+    "image": "src/images/Ps5_Spiderman_Edition-removebg-preview.png",
+    "category": "games",
+    "offer": "New",
+    "filter": "games"
+  },
+  {
+    "id": 36,
+    "name": "Xbox 360 Froza Horizen 5",
+    "price": "120.00",
+    "image": "src/images/Froza_Horizen_5-removebg-preview.png",
+    "category": "games",
+    "offer": "",
+    "filter": "games"
+  },
+  {
+    "id": 37,
+    "name": "Xbox Portable Console",
+    "price": "899.00",
+    "image": "src/images/Xbox_Protable-removebg-preview.png",
+    "category": "games",
+    "offer": "",
+    "filter": "games"
+  },
+  {
+    "id": 38,
+    "name": "Lenovo Yoga 7I Pro ",
+    "price": "329.00",
+    "image": "src/images/Lenovo_Yoga_7i_pro-removebg-preview.png",
+    "category": "laptop",
+    "offer": "",
+    "filter": "laptop"
+  },
+  {
+    "id": 39,
+    "name": "Infinix InBook X1  ",
+    "price": "350.00",
+    "image": "src/images/Infinix-inbook-x1-removebg-preview.png",
+    "category": "laptop",
+    "offer": "New",
+    "filter": "laptop"
+  },
+  {
+    "id": 40,
+    "name": "Gigabyte Complete Gaming Pc Setup  ",
+    "price": "569.00",
+    "image": "src/images/Gigabyte_Gaming_Setup_PC-removebg-preview.png",
+    "category": "computer",
+    "offer": "New",
+    "filter": "laptop"
+  },
+  {
+    "id": 41,
+    "name": "Lenovo LOQ AMD Rayzen 5  ",
+    "price": "400.00",
+    "image": "src/images/Lenovo_LOQ_laptop-removebg-preview.png",
+    "category": "laptop",
+    "offer": "",
+    "filter": "laptop"
+  },
+    {
+    "id": 42,
+    "name": "Asus VivoBook 15 Intel i7  ",
+    "price": "250.00",
+    "image": "src/images/Asus_VivoBook_15-removebg-preview.png",
+    "category": "laptop",
+    "offer": "New",
+    "filter": "laptop"
+  },
+  {
+    "id": 43,
+    "name": "Aser Swift Go 16GB Ram ",
+    "price": "320.00",
+    "image": "src/images/Aser_Swift_Go-removebg-preview.png",
+    "category": "laptop",
+    "offer": "New",
+    "filter": "laptop"
+  },
+  {
+    "id": 44,
+    "name": "HP Omen Rayzen 3 3200G  ",
+    "price": "420.00",
+    "image": "src/images/HP_Omen-removebg-preview.png",
+    "category": "laptop",
+    "offer": "",
+    "filter": "laptop"
+  },
+  {
+    "id": 45,
+    "name": "Ant Esports Gaming Tower RTX 3020 2GB",
+    "price": "350.00",
+    "image": "src/images/Ant_Esports_Gaming_Tower-removebg-preview.png",
+    "category": "computer",
+    "offer": "",
+    "filter": "laptop"
+  },
+  {
+    "id": 46,
+    "name": "Apple Mac Book Pro ",
+    "price": "660.00",
+    "image": "src/images/Apple_MacBook-removebg-preview.png",
+    "category": "laptop",
+    "offer": "New",
+    "filter": "laptop"
+  },
+  {
+    "id": 47,
+    "name": "Asus TUF A15 Intel I5 dia GTX 4080",
+    "price": "350.00",
+    "image": "src/images/Asus_TUF_A15-removebg-preview.png",
+    "category": "laptop",
+    "offer": "New",
+    "filter": "laptop"
+  },
+  {
+    "id": 48,
+    "name": "Foxin Office Computer ",
+    "price": "150.00",
+    "image": "src/images/Foxin_Office_Pc-removebg-preview.png",
+    "category": "computer",
+    "offer": "",
+    "filter": "laptop"
+  },
+  {
+    "id": 49,
+    "name": "Victus 16GB Ram Ryzen 5 9000G ",
+    "price": "350.00",
+    "image": "src/images/Victus_laptop-removebg-preview.png",
+    "category": "laptop",
+    "offer": "New",
+    "filter": "laptop"
+  },
+  {
+    "id": 50,
+    "name": "Apple MacBook Air ",
+    "price": "550.00",
+    "image": "src/images/Apple_MacBook_Air_M2-removebg-preview.png",
+    "category": "laptop",
+    "offer": "New",
+    "filter": "laptop"
+  },
+  {
+    "id": 51,
+    "name": "Apple iMac Pro ",
+    "price": "999.00",
+    "image": "src/images/Apple_iMac_M3-removebg-preview.png",
+    "category": "computer",
+    "offer": "",
+    "filter": "laptop"
+  },
+  {
+    "id": 52,
+    "name": "Infinix InBook X1  ",
+    "price": "890.00",
+    "image": "src/images/Apple_m2_Chip-removebg-preview.png",
+    "category": "computer",
+    "offer": "",
+    "filter": "laptop"
+   },   
+  {
+    "id": 53,
+    "name": "Infinix InBook X1  ",
+    "price": "890.00",
+    "image": "src/images/Apple_m2_Chip-removebg-preview.png",
+    "category": "computer",
+    "offer": "",
+    "filter": "allappliances"
+  }
+
+]
