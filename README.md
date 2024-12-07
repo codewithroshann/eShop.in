@@ -1,3 +1,6 @@
+This is a fully functional eCommerce Website ,  Where you can add,remove,increase,decrease quantity item in a cart using React ,Redux
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
