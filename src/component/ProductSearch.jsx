@@ -42,11 +42,11 @@ function ProductSearch(props) {
 
                             <div className="dropdown-box">
                                 <ul>
-                                    <li><a href="/laptops"><i className="fa-solid fa-laptop"></i>Computer </a></li>
+                                    <li><a href="/laptops&computers"><i className="fa-solid fa-laptop"></i>Computer </a></li>
                                     <li><a href="/shop/tv"><i className="fa-solid fa-tv"></i>TV & Smart Box</a></li>
                                     <li><a href="/"><i className="fa-solid fa-camera"></i>Cameras & Photography</a></li>
                                     <li><a href="/shop/headphones"><i className="fa-solid fa-headphones"></i>Headphones</a></li>
-                                    <li><a href="/shop/phones"><i className="fa-solid fa-tablet"></i>Smart Phones & Tablets</a></li>
+                                    <li><a href="/phones"><i className="fa-solid fa-tablet"></i>Smart Phones & Tablets</a></li>
                                     <li><a href="/gadgets"><i className="fa-solid fa-bolt"></i>Accessories</a></li>
                                     <li><a href="/shop/speakers"><i className="fa-solid fa-microphone"></i>Home Audio & Theator</a></li>
                                     <li><a href="/home appliances"><i className="fa-solid fa-house-chimney-window"></i>House Holds</a></li>
