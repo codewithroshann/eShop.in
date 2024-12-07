@@ -12,8 +12,8 @@ const EyeLiner = () => {
         <>
             <div className="shop-product px-4">
                 <div className=" main-product-section-2 main-product-section-3 crousel-product-section-2 my-5 product-tab-2">
-<ProductModule/>
-<div className="product-nav product-nav-2 d-flex justify-content-between">
+                    <ProductModule />
+                    <div className="product-nav product-nav-2 d-flex justify-content-between">
                         <div className="section-title tab-title" >
                             <h3>Eye Liner's</h3>
                         </div>

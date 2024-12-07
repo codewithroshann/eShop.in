@@ -16,7 +16,7 @@ const Allelectronics = () => {
                     <div className="tab-content pb-5 mt-4">
                         {
                             allProduct.filter(items => items.category === "electronics").map((data, key) => {
-                                return <div className="tab-product clothing-tab">
+                                return <div className="tab-product clothing-tab" key={key}>
                                     <div className="title">
                                         <small>
                                             {data.link}

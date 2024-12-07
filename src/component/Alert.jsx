@@ -6,7 +6,7 @@ const Alert = () => {
 
   return (
     <>
-      {alert.visible == true ? <div className={`alert alert-${alert.type} alert-dismissible mx-3 fade show`} style={{ position: "sticky",top:"50px", zIndex: "7" }} role="alert">
+      {alert.visible == true ? <div className={`alert alert-${alert.type} alert-dismissible mx-3 fade show`} style={{ position: "sticky",top:"100px", zIndex: "7" }} role="alert">
         <strong>Notification...!</strong> {alert.message}
         
       </div> : ""}

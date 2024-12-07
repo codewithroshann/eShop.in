@@ -1,20 +1,24 @@
 import React from 'react'
 import allProduct from '../../Products Lists/allProduct.json'
+import { useDispatch } from 'react-redux'
+import { addProduct } from '../Redux/Slices/showProducts'
+import ProductModule from '../ProductModule'
 const Lights = () => {
- 
-  return (
-    <>
+    const dispatch = useDispatch();
+    return (
+        <>
             <div className="shop-product px-4">
-           <div className=" main-product-section-2 main-product-section-3 crousel-product-section-2 my-5 product-tab-2">
-<div className="product-nav product-nav-2 d-flex justify-content-between">
+                <div className=" main-product-section-2 main-product-section-3 crousel-product-section-2 my-5 product-tab-2">
+                    <ProductModule />
+                    <div className="product-nav product-nav-2 d-flex justify-content-between">
                         <div className="section-title tab-title" >
                             <h3>Lights</h3>
                         </div>
                     </div>
                     <div className="tab-content pb-5 mt-4">
                         {
-                            allProduct.filter(items => items.category_3 === "lights").map((data,key) => {
-                                return <div className="tab-product clothing-tab">
+                            allProduct.filter(items => items.category_3 === "lights").map((data, key) => {
+                                return <div className="tab-product clothing-tab" key={key}>
                                     <div className="title">
                                         <small>
                                             {data.link}
@@ -28,8 +32,8 @@ const Lights = () => {
                                             <span className="visually-hidden">unread messages</span>
                                         </span>
                                     </div>
-                                    <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        Add TO Cart
+                                    <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={() => { dispatch(addProduct(data)) }}>
+                                        Tap to see
                                     </button>
                                     <hr className="divider" />
                                     <div className="rating mt-4 deal-price d-flex  justify-content-between mb-4 my-3">
@@ -55,7 +59,7 @@ const Lights = () => {
                 </div>
             </div>
         </>
-  )
+    )
 }
 
 export default Lights

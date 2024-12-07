@@ -290,7 +290,7 @@ const Shop = () => {
                                 <div className="section-title tab-title" >
                                     <h3>Laptops&Computers</h3>
                                 </div>
-                                <Link to="/laptops">See More</Link>
+                                <Link to="/laptops&computers">See More</Link>
                             </div>
                             <div className="tab-content scrolable-container pt-4">
                                 {/*FILTERED ITEM SECRION 1 */}

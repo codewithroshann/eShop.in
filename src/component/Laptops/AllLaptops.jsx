@@ -1,30 +1,25 @@
 import React from 'react'
 import allProduct from '../../Products Lists/allProduct.json'
-import { useDispatch } from 'react-redux'
-import { addProduct } from '../Redux/Slices/showProducts'
-import ProductModule from '../ProductModule'
-const GirlsTopWear = () => {
-    const dispatch = useDispatch();
+import { Link } from 'react-router-dom'
+const AllLaptops = () => {
   return (
     <>
     <div className="shop-product px-4">
-        
-        <div className=" main-product-section-2 main-product-section-3 crousel-product-section-2 my-4 product-tab-2">
-        <ProductModule/>
-            <div className="product-nav product-nav-2 d-flex justify-content-between">
+        <div className=" main-product-section-2 main-product-section-3 crousel-product-section-2 my-5 product-tab-2">
+                        <div className="product-nav product-nav-2 d-flex justify-content-between">
                 <div className="section-title tab-title" >
-                    <h3>Girls Top Wear</h3>
+                    <h3>Electronics</h3>
                 </div>
             </div>
 
 
             <div className="tab-content pb-5 mt-4">
                 {
-                    allProduct.filter(items => items.category_3 === "girls top wear").map((data,key) => {
+                    allProduct.filter(items => items.category_2 === "shop laptop").map((data, key) => {
                         return <div className="tab-product clothing-tab">
                             <div className="title">
                                 <small>
-                                    {data.category}
+                                    {data.link}
                                 </small>
                                 <h2 className='mt-3 fw-semibold'>{data.name}</h2>
                             </div>
@@ -35,9 +30,11 @@ const GirlsTopWear = () => {
                                     <span className="visually-hidden">unread messages</span>
                                 </span>
                             </div>
-                            <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={() => { dispatch(addProduct(data)) }}>
-                                        Tap to see
-                                    </button>
+                            <Link to={data.link}>
+                                <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    view
+                                </button>
+                            </Link>
                             <hr className="divider" />
                             <div className="rating mt-4 deal-price d-flex  justify-content-between mb-4 my-3">
                                 <div className=' px1 d-flex flex-column'>
@@ -65,4 +62,4 @@ const GirlsTopWear = () => {
   )
 }
 
-export default GirlsTopWear
+export default AllLaptops

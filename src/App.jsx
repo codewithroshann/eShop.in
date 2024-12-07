@@ -58,6 +58,8 @@ import Foundation from './component/Beauty/Foundation';
 import EyeLiner from './component/Beauty/EyeLiner';
 import LipSticks from './component/Beauty/LipSticks';
 import Mascara from './component/Beauty/Mascara';
+import AllBeauty from './component/Beauty/AllBeauty';
+import AllLaptops from './component/Laptops/AllLaptops';
 
 
 
@@ -155,10 +157,16 @@ function App() {
             <Route path="/:shop/girls bottom wear" element={<GirlsBottomWear />} />
             <Route path="/:shop/girls top wear" element={<GirlsTopWear />} />
             {/* BEAUTY PRODUCTS */}
+            <Route path="/beauty" element={<AllBeauty />} />
             <Route path="/:shop/foundations" element={<Foundation />} />
             <Route path="/:shop/eyeliners" element={<EyeLiner />} />
             <Route path="/:shop/lipsticks" element={<LipSticks />} />
             <Route path="/:shop/mascaras" element={<Mascara />} />
+            {/* LAPTOPS & COMPUTERS */}
+            <Route path="/laptops&computers" element={< AllLaptops />} />
+            <Route path="/:shop/gigabyte" element={<Mascara />} />
+            {/* GADGETS  */}
+            <Route path="/:shop/headphones" element={<Mascara />} />
 
 
           </Routes>

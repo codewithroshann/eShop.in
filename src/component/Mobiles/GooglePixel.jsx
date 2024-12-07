@@ -1,13 +1,16 @@
 import React from 'react'
 import allProduct from '../../Products Lists/allProduct.json'
+import { useDispatch } from 'react-redux'
+import { addProduct } from '../Redux/Slices/showProducts'
+import ProductModule from '../ProductModule'
 const GooglePixel = () => {
-    
+    const dispatch = useDispatch();
   return (
     <>
     <div className="shop-product px-4">
                 
                  <div className=" main-product-section-2 main-product-section-3 crousel-product-section-2 my-5 product-tab-2">
- 
+                 <ProductModule/>
                      <div className="product-nav product-nav-2 d-flex justify-content-between">
                          <div className="section-title tab-title" >
                              <h3>Gooogle Pixel</h3>
@@ -32,9 +35,9 @@ const GooglePixel = () => {
                                              <span className="visually-hidden">unread messages</span>
                                          </span>
                                      </div>
-                                     <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"  >
-                                      add to cart
-                                     </button>
+                                     <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={() => { dispatch(addProduct(data)) }}>
+                                        Tap to see
+                                    </button>
                                      <hr className="divider" />
                                      <div className="rating mt-4 deal-price d-flex  justify-content-between mb-4 my-3">
                                          <div className=' px1 d-flex flex-column'>

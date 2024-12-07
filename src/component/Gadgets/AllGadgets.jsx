@@ -1,6 +1,6 @@
 import React from 'react'
 import allProduct from '../../Products Lists/allProduct.json'
-
+import { Link } from 'react-router-dom'
 const AllGadgets = () => {
     return (
     <>
@@ -30,9 +30,11 @@ const AllGadgets = () => {
                                     <span className="visually-hidden">unread messages</span>
                                 </span>
                             </div>
-                            <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"  >
-                              Add To Cart
-                            </button>
+                            <Link to={data.link}>
+                                        <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            view
+                                        </button>
+                                    </Link>
                             <hr className="divider" />
                             <div className="rating mt-4 deal-price d-flex  justify-content-between mb-4 my-3">
                                 <div className=' px1 d-flex flex-column'>

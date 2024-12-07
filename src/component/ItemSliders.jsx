@@ -874,7 +874,7 @@ const ItemSliders = (props) => {
                     <div className="tab-content scrolable-container pt-4">
                         {/*FILTERED ITEM SECRION 1 */}
                         {
-                            filteredItemScrolbar.map((data,key) => {
+                            filteredItemScrolbar.map((data, key) => {
                                 return <div className="scrolable-products tab-product " key={key} >
                                     <div className="title">
                                         <small>
@@ -890,7 +890,7 @@ const ItemSliders = (props) => {
                                         </span>
                                     </div>
                                     <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={() => { dispatch(addProduct(data)) }}>
-                                      Tap to see
+                                        Tap to see
                                     </button>
 
 
@@ -938,7 +938,7 @@ const ItemSliders = (props) => {
                     <div className="tab-content pb-5 mt-4">
                         {/*FILTERED ITEM SECRION 3 */}
                         {
-                            filterClothingItems.map((data,key) => {
+                            filterClothingItems.map((data, key) => {
                                 return <div className="tab-product clothing-tab" key={key}>
                                     <div className="title">
                                         <small>
@@ -954,7 +954,7 @@ const ItemSliders = (props) => {
                                         </span>
                                     </div>
                                     <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={() => { dispatch(addProduct(data)) }}>
-                                      Tap to see
+                                        Tap to see
                                     </button>
                                     <hr className="divider" />
                                     <div className="rating mt-4 deal-price d-flex  justify-content-between mb-4 my-3">

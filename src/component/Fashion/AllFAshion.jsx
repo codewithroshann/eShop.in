@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import allProduct from '../../Products Lists/allProduct.json'
-import { Link } from "react-router-dom";
+import { useDispatch } from 'react-redux'
+import { addProduct } from '../Redux/Slices/showProducts'
+import ProductModule from '../ProductModule'
 
 
 const AllFAshion = () => {
+    const dispatch = useDispatch();
     //Clothing Items Tab 
     const [clothingItems, setClothingItems] = useState("fashion")
     const filterClothingItems = allProduct.filter(items => items.filter === clothingItems)
@@ -20,7 +23,7 @@ const AllFAshion = () => {
         <>
             <div className="shop-product px-4">
                 <div className=" main-product-section-2 main-product-section-3 crousel-product-section-2 my-5 product-tab-2">
-                    
+                <ProductModule/>
                     <div className="product-nav product-nav-2 d-flex justify-content-between">
                         <div className="section-title tab-title" >
                             <h3>Clothing</h3>
@@ -54,8 +57,8 @@ const AllFAshion = () => {
                                         </span>
                                     </div>
 
-                                    <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"   onClick={() => {addItem(data)}}>
-                                       Add To Cart
+                                    <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={() => { dispatch(addProduct(data)) }}>
+                                        Tap to see
                                     </button>
 
                                     <hr className="divider" />
@@ -94,8 +97,8 @@ const AllFAshion = () => {
                                         </span>
                                     </div>
 
-                                    <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"   onClick={() => {addItem(data)}}>
-                                       Add To Cart
+                                    <button type="button" className="btn btn-primary view view-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={() => { dispatch(addProduct(data)) }}>
+                                        Tap to see
                                     </button>
 
                                     <hr className="divider" />

@@ -70,8 +70,8 @@ const Cart = () => {
 
                                     </span>
                                 </div>
-                                <div className="item-quantity d-flex justify-content-end gap-4"  >
-                                    <div className="" style={{ width: "130px" }}>
+                                <div className="item-quantity d-flex justify-content-end align-items-center gap-4"   >
+                                    <div className="controls d-flex justify-content-between" style={{ width: "130px" }}>
 
 
                                         <button className='me-4 btn-sm btn btn-primary rounded-1' onClick={() => { dispatch(decreaseQuantity(items)) }}>-</button>
@@ -79,8 +79,8 @@ const Cart = () => {
                                         <button className='ms-4 btn-sm btn btn-primary rounded-1' onClick={() => { dispatch(increaseQuantity(items)) }}>+</button>
                                     </div>
 
-                                    <div className='table-data'>
-                                        <button className='btn btn-danger rounded-1' onClick={() => { removeAlert(items) }} >Remove</button>
+                                    <div className='table-data w-100 d-flex'>
+                                        <button className='btn btn-danger rounded-1 flex-grow-1' onClick={() => { removeAlert(items) }} >Remove</button>
                                     </div>
                                 </div>
                             </div>
