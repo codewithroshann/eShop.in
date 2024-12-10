@@ -1,5 +1,6 @@
-This is a fully functional eCommerce Website ,  Where you can add,remove,increase,decrease quantity item in a cart using React ,Redux
-WEWBSITE SCREENSHOT -  ![Screenshot_10-12-2024_162451_localhost](https://github.com/user-attachments/assets/a43c5900-6e31-45da-87f8-ff84d9f77d9f)
+This is a fully functional eCommerce Website ,  Where you can add,remove,increase,decrease quantity item in a cart using React ,Redux.
+
+WEBSITE SCREENSHOT -  ![Screenshot_10-12-2024_162451_localhost](https://github.com/user-attachments/assets/a43c5900-6e31-45da-87f8-ff84d9f77d9f)
 
 
 # React + Vite
