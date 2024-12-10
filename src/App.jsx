@@ -60,7 +60,10 @@ import LipSticks from './component/Beauty/LipSticks';
 import Mascara from './component/Beauty/Mascara';
 import AllBeauty from './component/Beauty/AllBeauty';
 import AllLaptops from './component/Laptops/AllLaptops';
-
+import SmartWatches from './component/Gadgets/SmartWatches';
+import Headphones from './component/Gadgets/Headphones';
+import EarBuds from './component/Gadgets/EarBuds'
+import Charger from './component/Gadgets/Charger';
 
 
 
@@ -166,7 +169,12 @@ function App() {
             <Route path="/laptops&computers" element={< AllLaptops />} />
             <Route path="/:shop/gigabyte" element={<Mascara />} />
             {/* GADGETS  */}
-            <Route path="/:shop/headphones" element={<Mascara />} />
+            <Route path="/:shop/headphones" element={<Headphones />} />
+            <Route path="/:shop/smartwatches" element={<SmartWatches />} />
+            <Route path="/:shop/tws" element={<EarBuds/>} />
+            <Route path="/:shop/chargers" element={<Charger/>} />
+          
+            
 
 
           </Routes>
