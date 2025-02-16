@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import allProduct from '../../Products Lists/allProduct.json'
+import allProduct from'src/Products Lists/allProduct.json'
 import { addProduct } from '../Redux/Slices/showProducts'
 import ProductModule from '../ProductModule'
 
