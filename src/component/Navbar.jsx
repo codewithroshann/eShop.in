@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from "react-router-dom";
 import '../App.css'
 import { useSelector } from 'react-redux';
@@ -6,8 +6,7 @@ import { useSelector } from 'react-redux';
 function Navbar(props) {
   const [isHover, setIsHover] = useState(false)
   const cartProducts = useSelector(state => state.cart.items)
-
-  
+ 
   return (
     <>
       <div className="nav-container ">
@@ -108,13 +107,13 @@ function Navbar(props) {
                         </ul>
                       </div>
                       <div className="laptop-section dropdown-category-section">
-                        <h4>Laptops&Computers</h4>
+                        <h4>Laptops</h4>
                         <ul className='d-flex flex-column'>
-                          <li><Link to="/shop/dryers">Lenovo Laptops</Link></li>
-                          <li><Link to="/shop/ev cycles">Infinix Laptops</Link></li>
-                          <li><Link to="/shop/fans">Gigabyte</Link></li>
-                          <li><Link to="/shop/lights">Asus</Link></li>
-                          <li><Link to="/shop/moniters">Aser</Link></li>
+                          <li><Link to="/shop/lenovo laptops">Lenovo Laptops</Link></li>
+                          <li><Link to="/shop/infinix laptops">Infinix Laptops</Link></li>
+                          <li><Link to="/shop/gigabyte laptops">Gigabyte</Link></li>
+                          <li><Link to="/shop/asus laptops">Asus</Link></li>
+                          <li><Link to="/shop/aser laptops">Aser</Link></li>
                         </ul>
                       </div>
 
@@ -137,7 +136,7 @@ function Navbar(props) {
           </div>
           <div className="account-container">
             <div className="account-box">
-              <Link to="">Register</Link>/<Link to="">Sign In</Link>
+              <Link to="/signup">SignUp</Link>/<Link to="/login">Login</Link>
             </div>
           </div>
 

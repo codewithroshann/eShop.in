@@ -750,7 +750,7 @@
     "image": "/src/images/Lenovo_Yoga_7i_pro-removebg-preview.png",
     "category": "laptop",
     "category_2": "shop laptop",
-    "category_3": "laptop",
+    "category_3": "lenovo",
     "offer": "",
     "filter": "laptop",
     "link": "lenovo laptops"
@@ -762,7 +762,7 @@
     "image": "/src/images/Infinix-inbook-x1-removebg-preview.png",
     "category": "laptop",
     "category_2": "shop laptop",
-    "category_3": "laptop",
+    "category_3": "infinixlaptop",
     "offer": "New",
     "filter": "laptop",
     "link": "infinix laptops"
@@ -774,10 +774,10 @@
     "image": "/src/images/Gigabyte_Gaming_Setup_PC-removebg-preview.png",
     "category": "computer",
     "category_2": "shop laptop",
-    "category_3": "computer",
+    "category_3": "gigabyte",
     "offer": "New",
     "filter": "laptop",
-    "link": "gigabyte"
+    "link": "gigabyte laptops"
   },
   {
     "id": 69,
@@ -785,8 +785,11 @@
     "price": "400.00",
     "image": "/src/images/Lenovo_LOQ_laptop-removebg-preview.png",
     "category": "laptop",
+    "category_2": "",
+    "category_3": "lenovo",
     "offer": "",
-    "filter": "laptop"
+    "filter": "laptop",
+    "link":"lenovo"
   },
   {
     "id": 70,
@@ -798,7 +801,7 @@
     "category_3": "laptop",
     "offer": "New",
     "filter": "laptop",
-    "link": "asus"
+    "link": "asus laptops"
   },
   {
     "id": 71,
@@ -810,7 +813,7 @@
     "category_3": "laptop",
     "offer": "New",
     "filter": "laptop",
-    "link": "aser"
+    "link": "aser laptops"
   },
   {
     "id": 72,
@@ -3784,7 +3787,7 @@
     "link": "headphones"
   },
   {
-    "id":321,
+    "id": 321,
     "name": "RED GEAR Striker S5 Gaming Headphone & Mic, Red LED L...",
     "price": "999.00",
     "image": "/src/images/k3-7-1-runmus-original-imagwqs7pbtprybu.jpeg",
@@ -3940,7 +3943,7 @@
     "link": "tws"
   },
   {
-    "id":334,
+    "id": 334,
     "name": "MAK 80 W SuperVOOC 6 A Wall Charger for Mobile with Det...",
     "price": "405.00",
     "image": "/src/images/65w-super-vooc-mini-star-original-imagfuhkztssmbhb.jpeg",
@@ -3964,7 +3967,7 @@
     "link": "chargers"
   },
   {
-    "id":336,
+    "id": 336,
     "name": "Apple 96 W Wall Charger for Mobile with Detachable Cabl... ",
     "price": "7,500.00",
     "image": "/src/images/mx0j2hn-a-apple-original-imagnqguhgdthhgx.jpeg",
@@ -4024,7 +4027,7 @@
     "link": "chargers"
   },
   {
-    "id": 29,
+    "id": 341,
     "name": "OPPO 65 Watt SuperVOOC Charger",
     "price": "1,195.00",
     "image": "/src/images/65w-superdart-fast-usb-charger-with-white-usb-to-c-cable-for-original-imagtr9zwmgtgdhs.jpeg",
@@ -4034,5 +4037,485 @@
     "offer": "",
     "filter": "",
     "link": "chargers"
+  },
+  {
+    "id": 342,
+    "name": "boAt Rockerz 255 Pro+ with ASAP Charge and upto 60 Hour... ",
+    "price": "1,049.00",
+    "image": "/src/images/-original-imagzuzzgteshegg.jpeg",
+    "category": "gadgets",
+    "category_2": "",
+    "category_3": "neckband",
+    "offer": "",
+    "filter": "",
+    "link": "neckbands"
+  },
+  {
+    "id": 343,
+    "name": "OnePlus Bullets Wireless Z2 Bluetooth",
+    "price": "1,299.00",
+    "image": "/src/images/-original-imahyy62vg5r3wue.jpeg",
+    "category": "gadgets",
+    "category_2": "",
+    "category_3": "neckband",
+    "offer": "",
+    "filter": "",
+    "link": "neckbands"
+  },
+  {
+    "id": 344,
+    "name": "TECHFIRE Fire 500v2 Neckband hi-bass Wireless Bluetooth... ",
+    "price": "799.00",
+    "image": "/src/images/fire-500v2-neckband-hi-bass-wireless-bluetooth-headphone-original-imagms6vdyq7hfty.jpeg",
+    "category": "gadgets",
+    "category_2": "",
+    "category_3": "neckband",
+    "offer": "",
+    "filter": "",
+    "link": "neckbands"
+  },
+  {
+    "id": 345,
+    "name": "bAot Neckband with 48Hours Playback Deep Bass , Magneti...",
+    "price": "599.00",
+    "image": "/src/images/neckband-with-48hrs-playback-deep-bass-with-magnetic-buds-c-type-original-imah5vzhffxjmmg4.jpeg",
+    "category": "gadgets",
+    "category_2": "",
+    "category_3": "neckband",
+    "offer": "",
+    "filter": "",
+    "link": "neckbands"
+  },
+  {
+    "id": 346,
+    "name": "Boult ProBass EQCharge with ZEN Mode ENC, 32hrs Playtim... ",
+    "price": "699.00",
+    "image": "/src/images/-original-imagtwb7zhyynv8a.jpeg",
+    "category": "gadgets",
+    "category_2": "",
+    "category_3": "neckband",
+    "offer": "",
+    "filter": "",
+    "link": "neckbands"
+  },
+  {
+    "id": 347,
+    "name": "ZEBRONICS Zeb-Yoga N3 Bluetooth..",
+    "price": "999.00",
+    "image": "/src/images/zeb-yoga-n3-dc-black-adam-edition-wireless-neckband-enc-gaming-original-imagzkhy3bzrax3u.jpeg",
+    "category": "gadgets",
+    "category_2": "",
+    "category_3": "neckband",
+    "offer": "",
+    "filter": "",
+    "link": "neckbands"
+  },
+  {
+    "id": 348,
+    "name": "IZWI Titan 35Hr Playtime with Superior Sound Neckband H...",
+    "price": "1,499.00",
+    "image": "/src/images/titan-35hr-playtime-with-superior-sound-neckband-headphone-izwi-original-imagpv5ftgpyx348.jpeg",
+    "category": "gadgets",
+    "category_2": "",
+    "category_3": "neckband",
+    "offer": "",
+    "filter": "",
+    "link": "neckbands"
+  },
+  {
+    "id": 349,
+    "name": "Lenovo IdeaPad 1 AMD Ryzen 5 Quad Core 7235HS  ... ",
+    "price": "23,999.00",
+    "image": "/src/images/-original-imagtzwvygkwvbex.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "lenovo",
+    "offer": "",
+    "filter": "laptop",
+    "link":"lenovo"
+  },
+  {
+    "id": 350,
+    "name": "Lenovo LOQ AMD Ryzen 5 Quad Core 7235HS... ",
+    "price": "66,690.00",
+    "image": "/src/images/-original-imah2h5m6ykrzarz.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "lenovo",
+    "offer": "",
+    "filter": "laptop",
+    "link":"lenovo"
+  },
+  {
+    "id": 351,
+    "name": "Lenovo IdeaPad 3 Intel Core i3 12th Gen 1215U...",
+    "price": "35,190.00",
+    "image": "/src/images/-original-imah4znzgbb9nrvc.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "lenovo",
+    "offer": "",
+    "filter": "laptop",
+    "link":"lenovo"
+  },
+  {
+    "id": 352,
+    "name": "Lenovo LOQ Intel Core i5 12th Gen 12450HX... ",
+    "price": "400.00",
+    "image": "/src/images/-original-imahywvcamhjm2x3.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "lenovo",
+    "offer": "",
+    "filter": "laptop",
+    "link":"lenovo"
+  },
+  {
+    "id": 353,
+    "name": "MSI Cyborg 15 Intel Core i5 12th Gen 12450H...",
+    "price": "57,999.00",
+    "image": "/src/images/-original-imah3cxkmbsqyqhv.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "lenovo",
+    "offer": "",
+    "filter": "laptop",
+    "link":"lenovo"
+  },
+  {
+    "id": 354,
+    "name": "Lenovo Legion Pro 5 AMD Ryzen 9 16 Core 7945HX... ",
+    "price": "2,01,190.00",
+    "image": "/src/images/16arx8-gaming-laptop-lenovo-original-imah2hkf8pwhskrp.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "lenovo",
+    "offer": "",
+    "filter": "laptop",
+    "link":"lenovo"
+  },
+  {
+    "id": 355,
+    "name": "MSI Cyborg 15 AI PC Intel Core Ultra 7 155H...",
+    "price": "1,06,190.00",
+    "image": "/src/images/-original-imagyj9k8nfhyxny.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "lenovo",
+    "offer": "",
+    "filter": "laptop",
+    "link":"lenovo"
+  },
+  {
+    "id": 356,
+    "name": "Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen 11300H...",
+    "price": "55,449.00",
+    "image": "/src/images/na-gaming-laptop-lenovo-original-imah3cs4r6ty3cym.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "lenovo",
+    "offer": "",
+    "filter": "laptop",
+    "link":"lenovo"
+  },
+  {
+    "id": 357,
+    "name": "Infinix GT Book Intel Core i5 12th Gen 12450H ...",
+    "price": "57,999.00",
+    "image": "/src/images/gtbook-gaming-laptop-infinix-original-imahyyyrd3rssayz.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "infinixlaptop",
+    "offer": "",
+    "filter": "infinix",
+    "link":"infinix"
+  },
+  {
+    "id": 358,
+    "name": "Infinix Y4 Max Series Intel Core i3 13th Gen 1315U...",
+    "price": "29,999.00",
+    "image": "/src/images/inbook-y4-max-core-i5-thin-and-light-laptop-infinix-original-imagxy8mny47qkha.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "infinixlaptop",
+    "offer": "",
+    "filter": "infinix",
+    "link":"infinix"
+  },
+  {
+    "id": 359,
+    "name": "Lenovo IdeaPad 3 Intel Core i3 12th Gen 1215U...",
+    "price": "36,999.00",
+    "image": "/src/images/-original-imaguyhzutzdrzus.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "infinixlaptop",
+    "offer": "",
+    "filter": "infinix",
+    "link":"infinix"
+  },
+  {
+    "id": 360,
+    "name": "Infinix INBook Y1 Plus Intel Core i3 10th Gen 1005G1...",
+    "price": "28,490.00",
+    "image": "/src/images/inbook-y1-plus-thin-and-light-laptop-infinix-original-imah2gsqbaqffzc3.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "infinixlaptop",
+    "offer": "",
+    "filter": "infinix",
+    "link":"infinix"
+  },
+  {
+    "id": 361,
+    "name": "nfinix Y3 Max Series Intel Core i3 12th Gen 1215U ...",
+    "price": "24,449.00",
+    "image": "/src/images/yl613-thin-and-light-laptop-infinix-original-imah3525z4swkhru.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "infinixlaptop",
+    "offer": "",
+    "filter": "infinix",
+    "link":"infinix"
+  },
+  {
+    "id": 362,
+    "name": "Infinix Intel Core i7 10th Gen 1065G7...",
+    "price": "39,999.00",
+    "image": "/src/images/xl21-thin-and-light-laptop-infinix-original-imah2gwtembhzgwu (1).jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "infinixlaptop",
+    "offer": "",
+    "filter": "infinix",
+    "link":"infinix"
+  },
+  {
+    "id": 363,
+    "name": "Infinix INBook X1 Intel Core i3 10th Gen 1005G1...",
+    "price": "37,999.00",
+    "image": "/src/images/inbook-x1-pro-thin-and-light-laptop-infinix-original-imag8shwc4mzhyks.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "infinixlaptop",
+    "offer": "",
+    "filter": "infinix",
+    "link":"infinix"
+  },
+  {
+    "id": 364,
+    "name": "GIGABYTE Intel Core i7 13th Gen 13700H...",
+    "price": "1,29,999.00",
+    "image": "/src/images/-original-imagsbrag7zaqhgg.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "gigabyte",
+    "offer": "",
+    "filter": "gigabyte",
+    "link":"gigabyte"
+  },
+  {
+    "id": 365,
+    "name": "GIGABYTE G Series Intel Core i5 12th Gen 12500H ...",
+    "price": "68,999.00",
+    "image": "/src/images/g5-mf-e2in313sh-gaming-laptop-gigabyte-original-imags36mgkuy5pbb.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "gigabyte",
+    "offer": "",
+    "filter": "gigabyte",
+    "link":"gigabyte"
+  },
+  {
+    "id": 366,
+    "name": "GIGABYTE G Series Intel Core i7 13th Gen 13620H...",
+    "price": "86,999.00",
+    "image": "/src/images/g6-mf-h2in853sh-gaming-laptop-gigabyte-original-imah4gwmzjksajku.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "gigabyte",
+    "offer": "",
+    "filter": "gigabyte",
+    "link":"gigabyte"
+  },
+  {
+    "id": 367,
+    "name": "GIGABYTE G5 GD Intel Core i5 11th Gen 11400H...",
+    "price": "73,990.00",
+    "image": "/src/images/-original-imaggsy54zwpjhkp.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "gigabyte",
+    "offer": "",
+    "filter": "gigabyte",
+    "link":"gigabyte"
+  },
+  {
+    "id": 368,
+    "name": "ASUS Vivobook 15 Intel Core i3 12th Gen 1215U ...",
+    "price": "33,990.00",
+    "image": "/src/images/x1502za-ej993ws-thin-and-light-laptop-asus-original-imah47vrryedmvtp.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "asus",
+    "offer": "",
+    "filter": "asus",
+    "link":"asus"
+  },
+  {
+    "id": 368,
+    "name": "ASUS Vivobook Go 14 AMD Ryzen 3 Quad Core 7320U ...",
+    "price": "46,999.00",
+    "image": "/src/images/-original-imah2y2teghzh7xe.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "asus",
+    "offer": "",
+    "filter": "asus",
+    "link":"asus"
+  },
+  {
+    "id": 369,
+    "name": "ASUS TUF Gaming A15 AMD Ryzen 7 Octa Core 7435HS...",
+    "price": "56,449.00",
+    "image": "/src/images/gaming-a15-gaming-laptop-asus-original-imah4bzzrdd6vuve.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "asus",
+    "offer": "",
+    "filter": "asus",
+    "link":"asus"
+  },
+  {
+    "id": 370,
+    "name": "ASUS Vivobook Go 15 OLED AMD Ryzen 5 Quad Core 7520U...",
+    "price": "46,990.00",
+    "image": "/src/images/-original-imagpxgru35rbzwz.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "asus",
+    "offer": "",
+    "filter": "asus",
+    "link":"asus"
+  },
+  {
+    "id": 371,
+    "name": "ASUS ROG Strix G16 Intel Core i5 13th Gen 13450HX...",
+    "price": "95,390.00",
+    "image": "/src/images/g614ju-n3200ws-gaming-laptop-asus-original-imah4bjd8gfzvxgn.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "asus",
+    "offer": "",
+    "filter": "asus",
+    "link":"asus"
+  },
+  {
+    "id": 372,
+    "name": "ASUS TUF Gaming A16 AE AMD Ryzen 7 Octa Core 7435HS...",
+    "price": "79,999.00",
+    "image": "/src/images/-original-imah445gtym3vugh.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "asus",
+    "offer": "",
+    "filter": "asus",
+    "link":"asus"
+  },
+  {
+    "id": 373,
+    "name": "ASUS ROG Zephyrus G14 OLED AMD Ryzen 9 Octa Core 8945HS...",
+    "price": "1,59,999.00",
+    "image": "/src/images/rog-zephyrus-g14-gaming-laptop-asus-original-imahfcjyjcvuu2hz.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "asus",
+    "offer": "",
+    "filter": "asus",
+    "link":"asus"
+  },
+  {
+    "id": 374,
+    "name": "Acer One Intel Core i3 11th Gen 1115G4 - (8 GB/512 GB ...",
+    "price": "28,990.00",
+    "image": "/src/images/-original-imah4zryw7gmp7gd.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "aser",
+    "offer": "",
+    "filter": "aser",
+    "link":"aser"
+  },
+  {
+    "id": 375,
+    "name": "Acer Aspire 3 AMD Ryzen 7 Octa Core 7730U - (16 GB/512 GB...",
+    "price": "40,990.00",
+    "image": "/src/images/-original-imah4d7hcwyycdjh.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "aser",
+    "offer": "",
+    "filter": "aser",
+    "link":"aser"
+  },
+  {
+    "id": 376,
+    "name": "Acer Aspire 3 Intel Celeron Dual Core N4500 - (8 GB/512 GB ...",
+    "price": "20,999.00",
+    "image": "/src/images/-original-imah5g8mw96faynm.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "aser",
+    "offer": "",
+    "filter": "aser",
+    "link":"aser"
+  },
+  {
+    "id": 377,
+    "name": "Acer Aspire Intel Core i5 12th Gen 12450H - (12 GB/512 GB ...",
+    "price": "41,899.00",
+    "image": "/src/images/aspire-lite-thin-and-light-laptop-acer-original-imah5ezuqegqcgye.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "aser",
+    "offer": "",
+    "filter": "aser",
+    "link":"aser"
+  },
+  {
+    "id": 378,
+    "name": "Acer Aspire 7 Intel Core i5 13th Gen 13420H - (16 GB/512 GB...",
+    "price": "53,,999.00",
+    "image": "/src/images/-original-imah3zzjkjwumecn.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "aser",
+    "offer": "",
+    "filter": "aser",
+    "link":"aser"
+  },
+  {
+    "id": 379,
+    "name": "Acer Aspire 7 Intel Core i5 12th Gen 12450H - (16 GB/512 GB ...",
+    "price": "49,,999.00",
+    "image": "/src/images/a715-76g-gaming-laptop-acer-original-imah3w8hpzgqeqnv.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "aser",
+    "offer": "",
+    "filter": "aser",
+    "link":"aser"
+  },
+  {
+    "id": 380,
+    "name": "Acer Nitro V AMD Ryzen 5 Hexa Core 7535HS - (16 GB/512 GB ...",
+    "price": "59,999.00",
+    "image": "/src/images/anv15-41-gaming-laptop-acer-original-imagznanfgmdt8w7.jpeg",
+    "category": "laptop",
+    "category_2": "",
+    "category_3": "aser",
+    "offer": "",
+    "filter": "aser",
+    "link":"aser"
   }
 ]

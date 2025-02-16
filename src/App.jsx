@@ -64,6 +64,12 @@ import SmartWatches from './component/Gadgets/SmartWatches';
 import Headphones from './component/Gadgets/Headphones';
 import EarBuds from './component/Gadgets/EarBuds'
 import Charger from './component/Gadgets/Charger';
+import NeckBands from './component/Gadgets/NeckBands';
+import Lenovo from './component/Laptops/Lenovo';
+import InfinixLaptop from './component/Laptops/InfinixLaptop';
+import Gigabyte from './component/Laptops/Gigabyte';
+import AsusLaptop from './component/Laptops/AsusLaptop';
+import AserLaptops from './component/Laptops/AserLaptops';
 
 
 
@@ -168,10 +174,16 @@ function App() {
             {/* LAPTOPS & COMPUTERS */}
             <Route path="/laptops&computers" element={< AllLaptops />} />
             <Route path="/:shop/gigabyte" element={<Mascara />} />
+            <Route path="/:shop/lenovo laptops" element={<Lenovo/>} />
+            <Route path="/:shop/infinix laptops" element={<InfinixLaptop/>} />
+            <Route path="/:shop/gigabyte laptops" element={<Gigabyte/>} />
+            <Route path="/:shop/asus laptops" element={<AsusLaptop/>} />
+            <Route path="/:shop/aser laptops" element={<AserLaptops/>} />
             {/* GADGETS  */}
             <Route path="/:shop/headphones" element={<Headphones />} />
             <Route path="/:shop/smartwatches" element={<SmartWatches />} />
             <Route path="/:shop/tws" element={<EarBuds/>} />
+            <Route path="/:shop/neckbands" element={<NeckBands/>} />
             <Route path="/:shop/chargers" element={<Charger/>} />
           
             

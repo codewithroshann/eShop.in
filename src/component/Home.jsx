@@ -5,6 +5,8 @@ import ItemSliders from './ItemSliders'
 function Home(props) {
   return (
     <>
+   
+
       <Hero/>
       <ItemSliders screenWidth={props.screenWidth}/>
 

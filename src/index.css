@@ -376,30 +376,34 @@ body {
 }
 
 .open {
-  height: max-content !important;
-  padding: 20px;
+  height: 400px !important;
+  padding: 20px 20px 30px 20px;
   border: 1px solid #f3f3f3;
+  
 }
 
 .shop-dropdown {
-  max-width: max-content;
-  width: 90%;
+  max-width: 90%;
+  width: 100%;
+  margin: 0 20px;
   height: 0;
-
   position: absolute;
   background: #fafafa;
-  overflow: hidden;
-  left: 90px;
+  overflow: scroll;
+  left: 50px;
+  right: 20px;
   top: 60px;
-  gap: 30px;
+  gap:20px;
   display: flex;
   flex-wrap: wrap;
-
   transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-
+.shop-dropdown::-webkit-scrollbar-thumb{
+  display: none;
+}
 .dropdown-category-section {
   min-width: 100px;
+  flex-grow: 2;
 
 }
 

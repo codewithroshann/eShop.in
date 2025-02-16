@@ -4,7 +4,7 @@ import {Link}  from 'react-router-dom'
 const Footer = () => {
     return (
         <>
-            <footer className='footer footer-area '>
+            <footer className='footer footer-area ' style={{position:"relative",bottom:"0px"}}>
                 <div className="footer-container">
                     <div className=" footer-row row ">
 

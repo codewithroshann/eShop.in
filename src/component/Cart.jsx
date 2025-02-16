@@ -23,7 +23,7 @@ const Cart = () => {
     const removeAlert = (items) => {
         dispatch(removeFromCart(items));
         dispatch(setAlert({
-            message: "Remove item Successfully!",
+            message: "Removed item Successfully!",
             type: "primary"
         }))
         setTimeout(() => {
@@ -44,7 +44,7 @@ const Cart = () => {
 
     return (
         <>
-            <div className="cart-container px-4 position-relative  w-100">
+            <div className="cart-container px-4 position-relative  w-100" style={{minHeight:"600px"}}>
 
                 <div className="cart w-100">
                     <div className="cart-heading my-4 text-center w-100 my-3">

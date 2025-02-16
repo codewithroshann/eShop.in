@@ -5,7 +5,7 @@ const saveToLocalStorage = (state) => {
 
 const storedProduct = JSON.parse(localStorage.getItem('cartProducts'));
 const initialState = {
-    items: []
+    items: storedProduct ? storedProduct.items : []
 };
 
 const cartSlice = createSlice({
