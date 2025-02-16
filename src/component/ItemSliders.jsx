@@ -22,7 +22,7 @@ const ItemSliders = (props) => {
     let [min, setMin] = useState("1");
     let [sec, setSec] = useState("1");
 
-    const deadline = "December , 31 , 2024";
+    const deadline = "December , 31 , 2025";
 
     const getTime = () => {
         const time = Date.parse(deadline) - Date.now()
