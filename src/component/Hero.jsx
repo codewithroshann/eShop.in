@@ -18,7 +18,7 @@ function Hero() {
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active" data-bs-interval="10000">
-                                <img src="src/images/clothModel-image.avif" className="d-block w-100" alt="..." />
+                                <img src="/public/images/clothModel-image.avif" className="d-block w-100" alt="..." />
                                 <div className="carousel-caption text-start d-none d-md-block">
                                     <h6>Clothing</h6>
                                     <h1>Mens Collection</h1>
@@ -27,7 +27,7 @@ function Hero() {
                                 </div>
                             </div>
                             <div className="carousel-item" data-bs-interval="2000">
-                                <img src="src/images/camera-Image.avif" className="d-block w-100" alt="..." />
+                                <img src="/public/images/camera-Image.avif" className="d-block w-100" alt="..." />
                                 <div className="carousel-caption text-start d-none d-md-block">
                                     <h6>Cameras</h6>
                                     <h1>Sony IMX Cameras</h1>
@@ -36,7 +36,7 @@ function Hero() {
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src="src/images/mobile-image.avif" className="d-block w-100" alt="..." />
+                                <img src="/public/images/mobile-image.avif" className="d-block w-100" alt="..." />
                                 <div className="carousel-caption text-start d-none d-md-block">
                                     <h6>Mobiles</h6>
                                     <h1>New Arrivels</h1>
@@ -58,7 +58,7 @@ function Hero() {
                         <div className="col">
                             <div className="card " >
                                 <Link to="/fashion">
-                                    <img src="src/images/clothModel-3.avif" className="card-img-top" alt="..." />
+                                    <img src="/public/images/clothModel-3.avif" className="card-img-top" alt="..." />
                                     <div className="text">
                                         <h6>clothing</h6>
                                         extra <span>30% off </span>in all styles
@@ -67,7 +67,7 @@ function Hero() {
                             </div>
                             <div className="card" >
                                 <Link to="/gadgets">
-                                    <img src="src/images/Headsets.webp" className="card-img-top" alt="..." />
+                                    <img src="/public/images/Headsets.webp" className="card-img-top" alt="..." />
                                     <div className="text">
                                         <h6>gadgets</h6>
                                         <span>45% off</span> in all cameras
@@ -78,7 +78,7 @@ function Hero() {
                         <div className="col">
                             <div className="card" >
                                 <Link to="/electronics">
-                                    <img src="src/images/camera-2.webp" className="card-img-top" alt="..." />
+                                    <img src="/public/images/camera-2.webp" className="card-img-top" alt="..." />
                                     <div className="text">
                                         <h6>electonics</h6>
                                         new headsets available under <span>1500</span>
@@ -87,7 +87,7 @@ function Hero() {
                             </div>
                             <div className="card" >
                                 <Link to="/beauty">
-                                    <img src="src/images/makeup-image.jpeg" className="card-img-top" alt="..." />
+                                    <img src="/public/images/makeup-image.jpeg" className="card-img-top" alt="..." />
                                     <div className="text">
                                         <h6>beauty</h6>
                                         <span>20% off </span>in all beauty products

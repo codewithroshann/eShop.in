@@ -98,7 +98,7 @@ const ItemSliders = (props) => {
                                         <span>tech</span>
                                         <p>Blue Yeti Remote Control Robot</p>
                                         <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
-                                            <img src="src/images/robot-slider.png" className='extend image-1' alt="" />
+                                            <img src="/public/images/robot-slider.png" className='extend image-1' alt="" />
                                             <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                                 -25%
                                             </span>
@@ -151,7 +151,7 @@ const ItemSliders = (props) => {
                                         <span>tech</span>
                                         <p>Nike White & Orange Airmax Shoe</p>
                                         <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
-                                            <img src="src/images/shoe-slider.png" className='extend image-2' alt="" />
+                                            <img src="/public/images/shoe-slider.png" className='extend image-2' alt="" />
                                             <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                                 -25%
                                             </span>
@@ -203,7 +203,7 @@ const ItemSliders = (props) => {
                                         <span>tech</span>
                                         <p>Louis Vitton Limited Edition Bag</p>
                                         <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
-                                            <img src="src/images/ladiesBag-slider.png" className='extend image-3' alt="" />
+                                            <img src="/public/images/ladiesBag-slider.png" className='extend image-3' alt="" />
                                             <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                                 -25%
                                             </span>
@@ -255,7 +255,7 @@ const ItemSliders = (props) => {
                                         <span>tech</span>
                                         <p>DermaCo Vitamin C FaceWash</p>
                                         <div className='position-relative' style={{ width: "max-content", margin: "auto" }}>
-                                            <img src="src/images/faceWash-slider.png" className='extend image-4' alt="" />
+                                            <img src="/public/images/faceWash-slider.png" className='extend image-4' alt="" />
                                             <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                                                 -25%
                                             </span>
@@ -307,7 +307,7 @@ const ItemSliders = (props) => {
                         {/* MINI OFFER BANNER */}
                         <div className="mini-sidebar mt-4 position-relative">
                             <Link to="/">
-                                <img src="src/images/Tech-Item.jpg" alt="" />
+                                <img src="/public/images/Tech-Item.jpg" alt="" />
                                 <div className="sidebar-text position-absolute">
                                     Sale Up To <br /> <span>30% Off</span>
                                 </div>
@@ -334,7 +334,7 @@ const ItemSliders = (props) => {
                                                     <Link to="/">
                                                         <div className="row">
                                                             <div className="col letestitem-col-1">
-                                                                <img src="src/images/hairDryer-removebg-preview.png" alt="" />
+                                                                <img src="/public/images/hairDryer-removebg-preview.png" alt="" />
                                                             </div>
                                                             <div className="col letestitem-col-2 ">
                                                                 <div className="title">
@@ -355,7 +355,7 @@ const ItemSliders = (props) => {
                                                     <Link to="/">
                                                         <div className="row">
                                                             <div className="col letestitem-col-1">
-                                                                <img src="src/images/HeadPhone.png" alt="" />
+                                                                <img src="/public/images/HeadPhone.png" alt="" />
                                                             </div>
                                                             <div className="col letestitem-col-2">
                                                                 <div className="title">
@@ -375,7 +375,7 @@ const ItemSliders = (props) => {
                                                 <Link to="/">
                                                     <div className="row">
                                                         <div className="col letestitem-col-1">
-                                                            <img src="src/images/Helmate-image.png" alt="" />
+                                                            <img src="/public/images/Helmate-image.png" alt="" />
                                                         </div>
                                                         <div className="col letestitem-col-2">
                                                             <div className="title">
@@ -394,7 +394,7 @@ const ItemSliders = (props) => {
                                                 <Link to="/">
                                                     <div className="row">
                                                         <div className="col letestitem-col-1">
-                                                            <img src="src/images/hightechcctv-removebg-preview.png" alt="" />
+                                                            <img src="/public/images/hightechcctv-removebg-preview.png" alt="" />
                                                         </div>
                                                         <div className="col letestitem-col-2">
                                                             <div className="title">
@@ -414,7 +414,7 @@ const ItemSliders = (props) => {
 
                                                         <div className="row">
                                                             <div className="col letestitem-col-1">
-                                                                <img src="src/images/faceWash-slider.png" alt="" />
+                                                                <img src="/public/images/faceWash-slider.png" alt="" />
                                                             </div>
                                                             <div className="col letestitem-col-2">
                                                                 <div className="title">
@@ -438,7 +438,7 @@ const ItemSliders = (props) => {
                                                     <Link to="/">
                                                         <div className="row">
                                                             <div className="col letestitem-col-1">
-                                                                <img src="src/images/hairDryer-removebg-preview.png" alt="" />
+                                                                <img src="/public/images/hairDryer-removebg-preview.png" alt="" />
                                                             </div>
                                                             <div className="col letestitem-col-2">
                                                                 <div className="title">
@@ -459,7 +459,7 @@ const ItemSliders = (props) => {
                                                     <Link to="/">
                                                         <div className="row">
                                                             <div className="col letestitem-col-1">
-                                                                <img src="src/images/HeadPhone.png" alt="" />
+                                                                <img src="/public/images/HeadPhone.png" alt="" />
                                                             </div>
                                                             <div className="col letestitem-col-2">
                                                                 <div className="title">
@@ -479,7 +479,7 @@ const ItemSliders = (props) => {
                                                 <Link to="/">
                                                     <div className="row">
                                                         <div className="col letestitem-col-1">
-                                                            <img src="src/images/Helmate-image.png" alt="" />
+                                                            <img src="/public/images/Helmate-image.png" alt="" />
                                                         </div>
                                                         <div className="col letestitem-col-2">
                                                             <div className="title">
@@ -498,7 +498,7 @@ const ItemSliders = (props) => {
                                                 <Link to="/">
                                                     <div className="row">
                                                         <div className="col letestitem-col-1">
-                                                            <img src="src/images/hightechcctv-removebg-preview.png" alt="" />
+                                                            <img src="/public/images/hightechcctv-removebg-preview.png" alt="" />
                                                         </div>
                                                         <div className="col letestitem-col-2">
                                                             <div className="title">
@@ -518,7 +518,7 @@ const ItemSliders = (props) => {
 
                                                         <div className="row">
                                                             <div className="col letestitem-col-1">
-                                                                <img src="src/images/faceWash-slider.png" alt="" />
+                                                                <img src="/public/images/faceWash-slider.png" alt="" />
                                                             </div>
                                                             <div className="col letestitem-col-2">
                                                                 <div className="title">
@@ -623,7 +623,7 @@ const ItemSliders = (props) => {
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
                                                 <Link to="/gadgets">
-                                                    <img src="src/images/Helmate-image.png" alt="" />
+                                                    <img src="/public/images/Helmate-image.png" alt="" />
                                                     <span>Sports & Outdoors</span>
                                                 </Link>
                                             </div>
@@ -631,7 +631,7 @@ const ItemSliders = (props) => {
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
                                                 <Link to="/gadgets">
-                                                    <img src="src/images/HeadPhone.png" alt="" />
+                                                    <img src="/public/images/HeadPhone.png" alt="" />
                                                     <span>HeadSets</span>
                                                 </Link>
                                             </div>
@@ -639,7 +639,7 @@ const ItemSliders = (props) => {
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
                                                 <Link to="/phones">
-                                                    <img src="src/images/Mobile-product.png" alt="" />
+                                                    <img src="/public/images/Mobile-product.png" alt="" />
                                                     <span>Smart Phones</span>
                                                 </Link>
                                             </div>
@@ -648,7 +648,7 @@ const ItemSliders = (props) => {
                                             <div className="product-item">
                                                 <Link to="/home appliances">
 
-                                                    <img src="src/images/fridge-removebg-preview.png" alt="" />
+                                                    <img src="/public/images/fridge-removebg-preview.png" alt="" />
                                                     <span>Home Appliances</span>
                                                 </Link>
                                             </div>
@@ -657,7 +657,7 @@ const ItemSliders = (props) => {
                                             <div className="product-item">
                                                 <Link to="/gadgets">
 
-                                                    <img src="src/images/CCTV-image.png" alt="" />
+                                                    <img src="/public/images/CCTV-image.png" alt="" />
                                                     <span>Security</span>
                                                 </Link>
                                             </div>
@@ -666,7 +666,7 @@ const ItemSliders = (props) => {
                                             <div className="product-item">
                                                 <Link to="/hpme appliances">
 
-                                                    <img src="src/images/MIcrowave-image.png" alt="" />
+                                                    <img src="/public/images/MIcrowave-image.png" alt="" />
                                                     <span>Home Appliances</span>
                                                 </Link>
                                             </div>
@@ -674,7 +674,7 @@ const ItemSliders = (props) => {
                                         <SwiperSlide className="product-item-wrapper">
                                             <div className="product-item">
                                                 <Link to="/home appliances">
-                                                    <img src="src/images/WashingMachne.png" alt="" />
+                                                    <img src="/public/images/WashingMachne.png" alt="" />
                                                     <span>Home Appliances</span>
                                                 </Link>
                                             </div>
@@ -683,7 +683,7 @@ const ItemSliders = (props) => {
                                             <div className="product-item">
                                                 <Link to="/home appliances">
 
-                                                    <img src="src/images/AirCooler-image.png" alt="" />
+                                                    <img src="/public/images/AirCooler-image.png" alt="" />
                                                     <span>Home Appliances</span>
                                                 </Link>
                                             </div>
@@ -800,7 +800,7 @@ const ItemSliders = (props) => {
 
                                     </div>
                                     <div className="col  justify-content-end">
-                                        <img src="src/images/Cooler-removebg-preview.png" alt="" />
+                                        <img src="/public/images/Cooler-removebg-preview.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-xl-4 d-flex">
@@ -820,7 +820,7 @@ const ItemSliders = (props) => {
 
                                     </div>
                                     <div className="col  justify-content-end">
-                                        <img src="src/images/Mixer-Grinder-removebg-preview.png" alt="" />
+                                        <img src="/public/images/Mixer-Grinder-removebg-preview.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-xl-4 d-flex">
@@ -840,7 +840,7 @@ const ItemSliders = (props) => {
 
                                     </div>
                                     <div className="col  justify-content-end">
-                                        <img src="src/images/Home_Theater-removebg-preview.png" alt="" />
+                                        <img src="/public/images/Home_Theater-removebg-preview.png" alt="" />
                                     </div>
                                 </div>
 
@@ -1017,7 +1017,7 @@ const ItemSliders = (props) => {
                         {/* // BRAND AREA  */}
                         <div className="brand-area d-flex align-items-center justify-content-center flex-column  mt-5 w-100">
                             <h2 className='fw-semibold text-uppercase' style={{ color: "#000006" }}>Brand Promotions</h2>
-                            <img className='w-100' src="src/images/Brand Promos.jpeg" alt="" />
+                            <img className='w-100' src="/public/images/Brand Promos.jpeg" alt="" />
                         </div>
 
 
