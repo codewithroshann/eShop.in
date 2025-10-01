@@ -91,8 +91,7 @@ const Cart = () => {
                 <div className="options row mt-5">
                     <button className='col btn btn-danger rounded-0 p-3 text-uppercase fw-bold ' onClick={ClearCartAlert}>Clear Cart</button>
                     <button className='col btn btn-success rounded-0 p-3 text-uppercase fw-bold ' onClick={buyAlert}>Buy $
-                        {
-                            (Products.map(item => parseInt(item.price.replace(/,/g, '')) * parseInt(item.quantity)).reduce((prev, curr) => prev + curr, 0).toLocaleString())}
+                        {(Products.map(item => parseInt(item.price.replace(/,/g, '')) * parseInt(item.quantity)).reduce((prev, curr) => prev + curr, 0).toLocaleString())}
 
                     </button>
                 </div>
